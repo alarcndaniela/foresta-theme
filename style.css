@@ -295,7 +295,7 @@ h2 {
 	
 	h1 {
 		width: 100%;
-		font-family: "Steinbeck";
+		font-family: "Steinbeck" !important;
 		font-size: 1.4em;
 		color: #ffff;
 		text-align: center;
