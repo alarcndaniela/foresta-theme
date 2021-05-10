@@ -5,7 +5,7 @@
         <div class="row  justify-content-center ">
 
             <div class="col align-self-center" >
-                <a href="aboutus"><img class="img intro-img" src="<?php echo get_template_directory_uri()."/img/picture_1.jpg"; ?>" alt="product"></a>
+                <a href="about-us"><img class="img intro-img" src="<?php echo get_template_directory_uri()."/img/picture_1.jpg"; ?>" alt="product"></a>
                 <!--<div class="col cuadrado align-self-center">About us</div>-->
             </div>
 
