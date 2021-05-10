@@ -64,7 +64,7 @@ body {
 .nav-top ul li a {
 	display: inline-block;
 	color: #0B3C5D !important;
-	font-family: 'Work Sans Light' !important;
+	font-family: 'Work Sans', sans-serif !important;
 	font-weight: 300;
 	text-decoration: none;
 }

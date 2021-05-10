@@ -27,10 +27,15 @@
         wp_enqueue_style('steinbeck', get_stylesheet_directory_uri() . './fonts/steinbeck/stylesheet.css');
 
         //load Work Sans font
-        wp_enqueue_style('worksans', get_stylesheet_directory_uri() . './fonts/worksans/stylesheet.css');
-        // wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap', false );
+        // wp_enqueue_style('worksans', get_stylesheet_directory_uri() . './fonts/worksans/stylesheet.css');
+        wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap', false );
 
     }
+
+    function wpb_add_google_fonts() {
+        wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap', false );
+    }
+        
     
     // function wpb_add_google_fonts() {
     //     //load fonts
@@ -38,7 +43,7 @@
     // }
 
 
-    add_action('wp_enqueue_scripts', 'load_assets', 'add_aos_animation');
+    add_action('wp_enqueue_scripts', 'load_assets', 'wpb_add_google_fonts', 'add_aos_animation');
          
 
     //register nav menu
