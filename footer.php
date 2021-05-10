@@ -10,7 +10,7 @@
             </div>
         </div>
         
-        <div class="col align-self-center"  style="background-color:#D44000; opacity: 0.5; width:100%; height:60vh; position:absolute; z-index: 1">
+        <div class="col align-content-center"  style="background-color:#D44000; opacity: 0.5; width:100%; height:60vh; position:absolute; z-index: 1">
       
         </div>
             <div class="col"  style="

@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans Extra-light';
     src: url('WorkSans-ExtraLight.eot');
     src: url('WorkSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
         url('WorkSans-ExtraLight.woff2') format('woff2'),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans Bold';
     src: url('WorkSans-Bold.eot');
     src: url('WorkSans-Bold.eot?#iefix') format('embedded-opentype'),
         url('WorkSans-Bold.woff2') format('woff2'),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans Light';
     src: url('WorkSans-Light.eot');
     src: url('WorkSans-Light.eot?#iefix') format('embedded-opentype'),
         url('WorkSans-Light.woff2') format('woff2'),
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans Medium';
     src: url('WorkSans-Medium.eot');
     src: url('WorkSans-Medium.eot?#iefix') format('embedded-opentype'),
         url('WorkSans-Medium.woff2') format('woff2'),
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans Normal';
     src: url('WorkSans-Regular.eot');
     src: url('WorkSans-Regular.eot?#iefix') format('embedded-opentype'),
         url('WorkSans-Regular.woff2') format('woff2'),
@@ -59,7 +59,7 @@
 }
 
 @font-face {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans Bold';
     src: url('WorkSans-SemiBold.eot');
     src: url('WorkSans-SemiBold.eot?#iefix') format('embedded-opentype'),
         url('WorkSans-SemiBold.woff2') format('woff2'),
