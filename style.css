@@ -1,3 +1,17 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+
 body {
 	margin: 0;
 	padding: 0;
@@ -20,11 +34,10 @@ body {
 	--bs-gutter-x: 0;
 }
 
-header {
+.hero {
 	width: 100%;
-	height: 80vh;
-	/* background: url(./img/header_img.jpg); */
-
+	height: 80vh !important; 
+	background-size:cover !important; 
 }
 
 .nav-top {
@@ -43,7 +56,7 @@ header {
 
 .nav-top ul li {
 	display: inline;
-	font-size: 0.9em;
+	font-size: 1em;
 	padding-right: 1em;
 	padding-left: 1em;
 }
@@ -90,7 +103,7 @@ header {
 	text-decoration: none !important;
 	color: #0B3C5D !important;
 	border: none;
-	font-family: 'Work Sans' !important;
+	font-family: 'Work Sans Light' !important;
 	font-weight: 300;
 	text-decoration: none;
 	-webkit-transition: all ease 0.5s;
@@ -124,16 +137,22 @@ h1 {
 
 
 h2 {
-	font-family: "NotoLight";
+	font-family: "Work Sans Light";
 	margin-bottom: 1em
 }
-
 
 .intro {
 	background: #ffff;
 	color: #0B3C5D;
 	padding: 4em 3em 4em 6em;
 	text-align: center;
+}
+
+
+.intro-paragraph{
+	font-family: 'Work Sans Light' !important;
+	font-weight: 300;
+	font-size: 1.1em;
 }
 
 .intro-img{
@@ -231,8 +250,8 @@ h2 {
 	display: inline;
 	text-align: left;
 	font-size: 0.9em;
-	padding-right: 2em;
-	margin-right: .5em;
+	padding-left: 2em;
+	margin-left: 2em;
 	text-decoration: none !important;
 	color: #0B3C5D !important;
 	border: none;
@@ -255,7 +274,7 @@ h2 {
 }
 
 
-@media only screen and (max-width:490px) {
+@media screen and (max-width: 990px){
 	.nav-top {
 		display: block
 	}
@@ -263,50 +282,68 @@ h2 {
 		text-decoration: none !important;
 		color: #0B3C5D !important;
 		border: none;
-		font-family: 'Work Sans' !important ;
+		font-family: 'Work Sans Light' !important ;
 		font-weight: 300;
 	}
-	header{
+	.hero{
 		height: 50vh !important;
+		justify-content: center;
 	}
 	p{
 		margin-top: 5%;
+	}
+	h1{
+		font-size: 1.4em;
 	}
 	.intro{
 		padding: 2.2em !important;
 	}
 	.intro-info{
 		flex-flow: wrap-reverse !important;
-		padding: 1em !important;
 
 	}
 	#logo{
 		width: 100px;
 	}
-	h1 {
-		font-size: 1.5em
-	}
+
 	.intro-paragraph{
+		font-family: 'Work Sans Light' !important;
+		font-weight: 300;
 		font-size: 1em;
 	}
 	.intro-img{
 		width: 300px !important;
+		height: 300px !important;
+		object-fit: cover;
 		align-self: center;
 	}
 	.col-4 {
 		flex: 0 0 auto;
 		width: auto;
 	}
+	.footer{
+		height: 40vh !important;
+	}
+	.footer-title{
+		font-size: 2em;
+	}
+	.footer-text{
+		font-size: 1.4em;
+		line-height: 20px;
+	}
+	.btn-footer{
+		margin-left:0 !important;
+	}
 }
-
+/* 
 @media (min-width: 990px){
 	.navbar-expand-md .navbar-collapse {
 		display: flex!important;
 		justify-content: flex-end;
 		flex-basis: auto;
 	}
-	header{
-		height: 50vh !important;
+	.hero{
+		height: 50vh;
 	}
 	p{
 		margin-top: 5%;
@@ -322,9 +359,6 @@ h2 {
 	#logo{
 		width: 100px;
 	}
-	h1 {
-		font-size: 1.5em
-	}
 
 	.intro-paragraph{
 		font-size: 1em;
@@ -337,4 +371,4 @@ h2 {
 		flex: 0 0 auto;
 		width: auto;
 	}
-}
+} */

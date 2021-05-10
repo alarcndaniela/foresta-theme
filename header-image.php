@@ -14,7 +14,7 @@
 
         <!-- header -->
         <header 
-        class="row justify-content-start" 
+        class="hero row justify-content-start" 
         style="
         background:url(<?php echo get_template_directory_uri()."/img/header_img.jpg" ?>); 	
         height: 80vh; 
@@ -55,7 +55,7 @@
 
             </div>
             <div class="row">
-                    <h1><span class="around-title">Crafts form our hands</span><br><span class="around-title">to your hands</span></h1>
+                    <h1><span class="around-title">Crafts from our hands</span><br><span class="around-title">to yours</span></h1>
             </div>
 
         </header>

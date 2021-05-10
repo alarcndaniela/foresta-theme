@@ -1,10 +1,10 @@
 <?php get_header("image"); ?>
 
-<div class="home-container">
+<div class="home-container" >
     <div class="container intro">
         <div class="row  justify-content-center ">
 
-            <div class="col align-self-center">
+            <div class="col align-self-center" >
                 <a href="aboutus"><img class="img intro-img" src="<?php echo get_template_directory_uri()."/img/picture_1.jpg"; ?>" alt="product"></a>
                 <!--<div class="col cuadrado align-self-center">About us</div>-->
             </div>
@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <div class="row intro-info justify-content-center mt-5 ">
+        <div class="row intro-info justify-content-center mt-5">
             <div class="col align-self-center">
                 <p class="intro-paragraph">
                     Find everything from painting, photography, jewelry, bags made from recycled tires, natural cosmetics, clothing, accessories, batiks, wood crafts, to games for kids and more.

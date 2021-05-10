@@ -3,13 +3,13 @@
     <div class="row">
       <p class="product-title justify-content-center">Brands</p>
       <div class="row justify-content-center">
-        <div class="col-4 m-2">
+        <div class="col-4">
           <a href="store/brands"><img class="square-img" src="<?php echo get_template_directory_uri()."/img/brand_leather.jpg"; ?>" alt="brand"></a>
         </div>
-        <div class="col-4 m-2">
+        <div class="col-4">
           <a href="store/brands"><img class="square-img" src="<?php echo get_template_directory_uri()."/img/brand_nome.jpg"; ?>" alt="brand"></a>
         </div>
-        <div class="col-4 m-2">
+        <div class="col-4">
           <a href="store/brands"><img class="square-img" src="<?php echo get_template_directory_uri()."/img/brand_coffee.jpg"; ?>" alt="brand"></a>
         </div>
       </div>     
