@@ -55,7 +55,7 @@
 
             </div>
             <div class="row">
-                    <h1><span class="around-title">Crafts form our hands</span><br><span class="around-title">to yours</span></h1>
+                    <h1><span class="around-title">Crafts form our hands</span><br><span class="around-title">to your hands</span></h1>
             </div>
 
         </header>
