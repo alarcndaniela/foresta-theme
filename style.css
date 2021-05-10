@@ -292,8 +292,16 @@ h2 {
 	p{
 		margin-top: 5%;
 	}
-	h1{
+	
+	h1 {
+		width: 100%;
+		font-family: "Steinbeck";
 		font-size: 1.4em;
+		color: #ffff;
+		text-align: center;
+		padding: 5em 0 3em 0;
+		line-height: 1.2em;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 	}
 	.intro{
 		padding: 2.2em !important;

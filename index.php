@@ -31,7 +31,7 @@
 
     <div class="container products">
         <br>
-        <p class="product-title justify-content-center">Products</p>
+        <h2 class="product-title justify-content-center mt-4">Products</h2>
         <br>
 
         <div class="row justify-content-center ">
