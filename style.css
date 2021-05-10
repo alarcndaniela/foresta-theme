@@ -303,6 +303,27 @@ h2 {
 		line-height: 1.2em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 	}
+	.around-title{
+		font-family: "Steinbeck" !important;
+	}
+	.product-title {
+		width: 100%;
+		font-family: "Steinbeck";
+		font-size: 2em;
+		color: #0B3C5D;
+		text-align: center;
+	}
+	
+	.footer-title{
+		width: 100%;
+		font-family: "Steinbeck";
+		font-size:2.5em;
+		color: #ffff;
+		text-align: center;
+		line-height: 1.2em;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
+	}
+	
 	.intro{
 		padding: 2.2em !important;
 	}
