@@ -275,14 +275,9 @@ h2 {
 
 
 @media screen and (max-width: 990px){
-	.navbar-expand-md .navbar-collapse {
-		display: flex!important;
-		justify-content: flex-end;
-		flex-basis: auto;
-	}
 	
 	.nav-top {
-		display: block
+		display: flex;
 	}
 	.btn-language{
 		text-decoration: none !important;
