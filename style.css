@@ -72,7 +72,7 @@ body {
 .nav-top ul li a:hover {
 	color: #0B3C5D !important;
 	border: none;
-	font-family: 'Work Sans Bold' !important;
+	font-family: 'Work Sans', sans-serif !important;
 	font-weight: 600;
 	text-decoration: none;
 	-webkit-transition: all ease 0.5s;
@@ -83,7 +83,7 @@ body {
 .nav-top ul li a:active {
 	color: #0B3C5D !important;
 	border: none;
-	font-family: 'Work Sans Bold' !important;
+	font-family: 'Work Sans', sans-serif !important;
 	font-weight: 600;
 	text-decoration: none;
 	-webkit-transition: all ease 0.5s;
@@ -103,7 +103,7 @@ body {
 	text-decoration: none !important;
 	color: #0B3C5D !important;
 	border: none;
-	font-family: 'Work Sans Light' !important;
+	font-family: 'Work Sans', sans-serif !important;
 	font-weight: 300;
 	text-decoration: none;
 	-webkit-transition: all ease 0.5s;
@@ -114,7 +114,7 @@ body {
 .btn-language:hover{
 	color: #0B3C5D !important;
 	border: none;
-	font-family: 'Work Sans Bold' !important;
+	font-family: 'Work Sans', sans-serif !important;
 	font-weight: 600;
 	text-decoration: none;
 	-webkit-transition: all ease 0.5s;
@@ -137,7 +137,7 @@ h1 {
 
 
 h2 {
-	font-family: "Work Sans Light";
+	font-family: 'Work Sans', sans-serif;
 	margin-bottom: 1em
 }
 
@@ -150,7 +150,7 @@ h2 {
 
 
 .intro-paragraph{
-	font-family: 'Work Sans Light' !important;
+	font-family: 'Work Sans', sans-serif !important;
 	font-weight: 300;
 	font-size: 1.1em;
 }
@@ -218,7 +218,7 @@ h2 {
 
 .footer-text{
 	width: 100%;
-	font-family: "Work Sans Light";
+	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
 	font-size: 1.5em;
 	color: #ffff;
@@ -228,7 +228,7 @@ h2 {
 } 
 
 .footer-btn {
-	font-family: "Work Sans Normal";
+	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 	border-width: 2px;
 	width: max-content;
@@ -255,7 +255,7 @@ h2 {
 	text-decoration: none !important;
 	color: #0B3C5D !important;
 	border: none;
-	font-family: 'Work Sans Light' !important;
+	font-family: 'Work Sans', sans-serif !important;
 	font-weight: 300;
 	-webkit-transition: all ease 0.5s;
 	-o-transition: all ease 0.5s;
@@ -265,7 +265,7 @@ h2 {
 .btn-language:hover{
 	color: #0B3C5D !important;
 	border: none;
-	font-family: 'Work Sans Bold' !important;
+	font-family: 'Work Sans', sans-serif !important;
 	font-weight: 600;
 	text-decoration: none;
 	-webkit-transition: all ease 0.5s;
@@ -282,7 +282,7 @@ h2 {
 		text-decoration: none !important;
 		color: #0B3C5D !important;
 		border: none;
-		font-family: 'Work Sans Light' !important ;
+		font-family: 'Work Sans', sans-serif !important ;
 		font-weight: 300;
 	}
 	.hero{
@@ -307,7 +307,7 @@ h2 {
 	}
 
 	.intro-paragraph{
-		font-family: 'Work Sans Light' !important;
+		font-family: 'Work Sans', sans-serif !important;
 		font-weight: 300;
 		font-size: 1em;
 	}
