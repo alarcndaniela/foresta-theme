@@ -340,10 +340,10 @@ h2 {
 	.footer{
 		height: 40vh !important;
 	}
-	.footer-title, .around-title{
+	.footer-title{
 		width: 100%;
 		font-family: "Steinbeck";
-		font-size:2em;
+		font-size:2.5em;
 		color: #ffff;
 		text-align: center;
 		line-height: 1.2em;
