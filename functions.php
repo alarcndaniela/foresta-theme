@@ -28,7 +28,7 @@
 
         // //load Work Sans font
         // // wp_enqueue_style('worksans', get_stylesheet_directory_uri() . './fonts/worksans/stylesheet.css');
-        // wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap', false );
+        wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap', false );
 
     }
 
