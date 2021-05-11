@@ -14,7 +14,7 @@
         //load AOS
         wp_enqueue_style('AOS_animate', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css', false, null);
         wp_enqueue_script('AOS', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', false, null, true);
-        wp_enqueue_script('theme-js', get_template_directory_uri() . './js/theme.js', array( 'AOS' ), null, true);
+        wp_enqueue_script('theme', get_template_directory_uri() . 'theme.js', array( 'AOS' ), null, true);
         // wp_enqueue_style('aos_css', 'https://unpkg.com/aos@2.3.1/dist/aos.css');
     
         //wp_enqueue_style('bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css');
@@ -46,7 +46,7 @@
 
     //register nav menu
     register_nav_menus( array(
-        'primary-menu' => __( 'Primary Menu', 'Menu 1' ),
+        'primary-menu' => __( 'Primary Menu', 'Menu 1'),
     ) );
 
     //support featured image
