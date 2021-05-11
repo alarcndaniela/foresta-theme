@@ -28,20 +28,15 @@
         wp_enqueue_script( 'jquery', 'https://code.jquery.com/jquery-3.6.0.min.js');
 
         // //load SteinBeck font
-        wp_enqueue_style('steinbeck', get_stylesheet_directory_uri() . './fonts/steinbeck/stylesheet.css');
+        wp_enqueue_style('steinbeck', get_stylesheet_directory_uri() . '/fonts/steinbeck/stylesheet.css');
 
         // //load Work Sans font
         // // wp_enqueue_style('worksans', get_stylesheet_directory_uri() . './fonts/worksans/stylesheet.css');
         wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap', false );
 
-    }
+    }   
 
-    function wpb_add_google_fonts() {
-        wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap', false );
-    }
-        
-
-    add_action('wp_enqueue_scripts', 'load_assets', 'wpb_add_google_fonts');
+    add_action('wp_enqueue_scripts', 'load_assets');
          
 
     //register nav menu
