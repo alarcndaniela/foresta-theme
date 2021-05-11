@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Steinbeck';
     src: url('Steinbeck-Regular.eot');
-    src: url('Steinbeck-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Steinbeck-Regular.woff2') format('woff2'),
-        url('Steinbeck-Regular.woff') format('woff'),
-        url('Steinbeck-Regular.ttf') format('truetype');
+    src: url('steinbeck-regular.eot?#iefix') format('embedded-opentype'),
+        url('steinbeck-regular.woff2') format('woff2'),
+        url('steinbeck-regular.woff') format('woff'),
+        url('steinbeck-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
