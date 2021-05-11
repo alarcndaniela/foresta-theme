@@ -20,7 +20,7 @@
             // For the JavaScript that initializes AOS, it's best if you manage that in a separate
             // JS file and enqueue it as a dependency of AOS script library. That way, it ensures the
             // order of your scripts.
-            wp_enqueue_script('theme-js',  get_stylesheet_directory_uri() . 'theme.js', ['AOS'], null, true);
+            wp_enqueue_script('theme-js',  get_template_directory() . 'theme.js', ['AOS'], null, true);
     
         //wp_enqueue_style('bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css');
 
@@ -33,7 +33,7 @@
         wp_enqueue_script( 'jquery', 'https://code.jquery.com/jquery-3.6.0.min.js');
 
         // //load SteinBeck font
-        wp_enqueue_style('steinbeck', get_stylesheet_directory_uri() . '/fonts/steinbeck/stylesheet.css');
+        wp_enqueue_style('steinbeck', get_stylesheet_directory_uri() . './fonts/steinbeck/stylesheet.css');
 
         // //load Work Sans font
         wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap', false );
