@@ -34,6 +34,9 @@ body {
 	--bs-gutter-x: 0;
 }
 
+img{
+	box-shadow: none !important;
+}
 .hero {
 	width: 100%;
 	height: 80vh !important; 
@@ -141,10 +144,10 @@ h2 {
 	margin-bottom: 1em
 }
 
-.intro {
+.introduction {
 	background: #ffff;
 	color: #0B3C5D;
-	padding: 4em 3em 4em 6em;
+	padding: 4em 3em 4em 3em;
 	text-align: center;
 }
 
@@ -175,14 +178,14 @@ h2 {
   
 
 .square-img{
-	object-fit: cover;
-    object-position: center;
-    width: 300px;
-    height: 300px;
-	padding: 1em
+		width: 300px!important;
+		height: 300px !important;
+		object-fit: cover;
+		align-self: center;
+	
 }
 
-.square-img-brands{
+.square-image-brand{
 	object-fit: cover;
     object-position: center;
     width: 100px;
@@ -274,11 +277,154 @@ h2 {
 }
 
 
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden
+}
+
+.content .content-overlay {
+    background: #0EB9CB;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+	object-fit: cover;
+		align-self: center;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+.content .content-overlay2 {
+    background: #FF7A00;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content .content-overlayproduct{
+	background: #0B3C5D;
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content .content-overlaybrand{
+	background: #F9CF00;
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+    opacity: 0.4
+}
+.content:hover .content-overlay2 {
+    opacity: 0.6
+}
+
+.content:hover .content-overlayproduct{
+	opacity: 0.5;
+}
+.content:hover .content-overlaybrand{
+	opacity: 0.5;
+}
+.content-image {
+    width: 100%
+}
+.square-image {
+    width: 30em;
+	height: 20em;
+	object-fit: cover;
+	align-self: center;
+}
+
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.content-details h3 {
+	font-family: 'Steinbeck';
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.content-details p {
+	font-family: 'Work Sans' sans-serif;
+	font-weight: 300;
+    color: #fff;
+    font-size: 1em
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
+
+
 @media screen and (max-width: 990px){
-	
 	.nav-top {
-		display: flex;
+		display: block !important;
+	} 
+
+	.navbar-toggle:active,.navbar-expand-md .navbar-collapse {
+			display: flex!important;
+			justify-content: flex-end;
+			flex-basis: auto;
+
 	}
+
+
 	.btn-language{
 		text-decoration: none !important;
 		color: #0B3C5D !important;
@@ -290,10 +436,16 @@ h2 {
 		height: 50vh !important;
 		justify-content: center;
 	}
+	h1{
+		font-size: 2em !important;
+	}
 	p{
 		margin-top: 5%;
 	}
-	
+
+	#logo{
+		width: 100px;
+	}
 	.product-title{
 		width: 100%;
 		font-family: "Steinbeck" !important;
@@ -311,8 +463,85 @@ h2 {
 		line-height: 1.2em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 	}
+	 .introduction{
+		padding: 2.2em !important;
+	}
+	.content-image{
+		width: 300px !important;
+		height: 300px !important;
+		object-fit: cover;
+		align-self: center;
+	}
+	.square-image{
+		width: 300px !important;
+		height: 300px !important;
+		object-fit: cover;
+		align-self: center;
+	}
 	
-	.intro{
+	.intro-info{
+		flex-flow: wrap-reverse !important;
+
+	}
+	.intro-paragraph{
+		font-family: 'Work Sans', sans-serif !important;
+		font-weight: 300;
+		font-size: 1em;
+	}
+	.square-img{
+		width: 300px !important;
+		height:300px!important;
+		object-fit: cover;
+		align-self: center;
+	} 
+	.col-4 {
+		flex: 0 0 auto;
+		width: auto;
+	}
+	.col-sm-6{
+		text-align: center !important;
+		margin: 0 !important;
+		padding-left: 0 !important;
+	}
+	.btn-footer{
+		text-align: center !important;
+		margin: 0 !important;
+		padding-left: 0 !important;
+	}
+	.footer{
+		height: 40vh !important;
+		align-content: center;
+		justify-content: center;
+	}
+	.footer-title{
+		width: 100%;
+		font-family: "Steinbeck";
+		font-size:2em;
+		color: #ffff;
+		text-align: center;
+		line-height: 1.2em;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
+	}
+
+}
+	/*
+	.intro-info{
+		flex-flow: wrap-reverse !important;
+
+	}
+	.intro-paragraph{
+		font-family: 'Work Sans', sans-serif !important;
+		font-weight: 300;
+		font-size: 1em;
+	}
+	.intro-img{
+		width: 300px !important;
+		height: 300px !important;
+		object-fit: cover;
+		align-self: center;
+	} */
+/* 	
+	.introduction{
 		padding: 2.2em !important;
 	}
 	.intro-info{
@@ -333,18 +562,18 @@ h2 {
 		height: 300px !important;
 		object-fit: cover;
 		align-self: center;
-	}
-	.col-4 {
+	} */
+	/* .col-4 {
 		flex: 0 0 auto;
 		width: auto;
-	}
-	.footer{
+	} */
+	/* .footer{
 		height: 40vh !important;
 	}
 	.footer-title{
 		width: 100%;
 		font-family: "Steinbeck";
-		font-size:2.5em;
+		font-size:2em;
 		color: #ffff;
 		text-align: center;
 		line-height: 1.2em;
@@ -356,8 +585,8 @@ h2 {
 	}
 	.btn-footer{
 		margin-left:0 !important;
-	}
-}
+	} */
+
 /* 
 @media (min-width: 990px){
 	.navbar-expand-md .navbar-collapse {
