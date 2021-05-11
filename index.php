@@ -42,7 +42,7 @@
    </div>
    <div class="container products" >
       <br>
-      <h2 class="product-title justify-content-center mt-4 " data-aos="fade-up">Products</h2>
+      <h2 class="product-title justify-content-center mt-4 ">Products</h2>
       <br>
       <div class="row justify-content-center ">
 
