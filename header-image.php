@@ -5,6 +5,8 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title><?php bloginfo('name'); ?></title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.1.1/dist/aos.css" />
+
     <?php wp_head(); ?>
 </head>
 
