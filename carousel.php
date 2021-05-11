@@ -2,15 +2,42 @@
   <div class="container">
     <div class="row">
       <p class="product-title justify-content-center">Brands</p>
-      <div class="row justify-content-center">
-        <div class="col-4">
-          <a href="store/brands"><img class="square-img" src="<?php echo get_template_directory_uri()."/img/brand_leather.jpg"; ?>" alt="brand"></a>
+      <div class="row justify-content-center mt-5">
+        <div class="col-4 ">
+            <div class="content mb-5">
+               <a href="store/nomellamo">
+                  <div class="content-overlaybrand"></div>
+                  <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/brand_nome.jpg"; ?>" alt="product" alt="product">
+                  <div class="content-details fadeIn-bottom">
+                     <h3 class="content-title">No Me Llamo</h3>
+                     <p class="content-text">Shop @nomellamo products</p>
+                  </div>
+               </a>   
+            </div>
         </div>
         <div class="col-4">
-          <a href="store/brands"><img class="square-img" src="<?php echo get_template_directory_uri()."/img/brand_nome.jpg"; ?>" alt="brand"></a>
+            <div class="content mb-5">
+               <a href="store/yaloco">
+                  <div class="content-overlaybrand"></div>
+                  <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/brand_leather.jpg"; ?>" alt="product" alt="product">
+                  <div class="content-details fadeIn-bottom">
+                     <h3 class="content-title">Yaloco</h3>
+                     <p class="content-text">Shop @yaloco products</p>
+                  </div>
+               </a>   
+            </div>
         </div>
         <div class="col-4">
-          <a href="store/brands"><img class="square-img" src="<?php echo get_template_directory_uri()."/img/brand_coffee.jpg"; ?>" alt="brand"></a>
+        <div class="content mb-5">
+               <a href="store/turin">
+                  <div class="content-overlaybrand"></div>
+                  <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/brand_coffee.jpg"; ?>" alt="product" alt="product">
+                  <div class="content-details fadeIn-bottom">
+                     <h3 class="content-title">Turin Coffee</h3>
+                     <p class="content-text">Shop Turin Coffee</p>
+                  </div>
+               </a>   
+            </div>
         </div>
       </div>     
   </div>
