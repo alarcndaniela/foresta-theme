@@ -2,12 +2,10 @@
 
     require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
-    function load_assets( ){
-
+    function load_assets(){
         
         //load BS
-        wp_enqueue_style('bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css'); 
-        
+        wp_enqueue_style('bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css'); 
         
         wp_enqueue_style('font_awesome', 'https://use.fontawesome.com/releases/v5.7.2/css/all.css');
         
@@ -41,9 +39,6 @@
        
       
         //wp_enqueue_style('bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css');
-
-        
-
 
     }   
 
