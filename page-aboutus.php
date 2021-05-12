@@ -29,14 +29,14 @@
       </div>
    </div>
 
-   <section class="pt-5 pb-5">
+   <section class="pt-5">
       <div class="contain our-store" style="display:flex; justify-content:center; align-content:center">
          <div class="row align-items-center justify-content-center align-self-center">
 
             <div class="col-4">
                <div class="content ">
                   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                     <div class="carousel-inner mb-5 mt-5">
+                     <div class="carousel-inner mb-5 mt-5" >
                         <div class="carousel-item active">
                            <img class="d-block w-100" src="<?php echo get_template_directory_uri()."/img/ourstore1.jpg"; ?>" alt="First slide">
                         </div>

@@ -41,9 +41,11 @@
          </div>
       </div>
    </div>
-   <div class="container products" >
+
+</div>
+   <div class="products" >
       <br>
-      <h2 class="product-title justify-content-center mt-4 aos-init aos-animate"  data-aos="fade-up">Products</h2>
+      <h2 class="product-title justify-content-center mt-4 aos-init aos-animate" data-aos="fade-up">Products</h2>
       <br>
       <div class="row justify-content-center ">
 
@@ -89,7 +91,7 @@
          </div>
 
          <div class="col-4 align-self-start">
-             <div class="content mb-5">
+             <div class="content mb-5 pb-5">
                <a href="store/clothing">
                   <div class="content-overlayproduct"></div>
                   <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/clothing_category.jpg"; ?>" alt="product">
@@ -102,7 +104,7 @@
          </div>
 </div>
 </div>
-   </div>
+ 
 </div>
 <?php get_template_part("carousel") ?>
 <?php get_footer(); ?>
