@@ -158,6 +158,29 @@ h2 {
 	font-size: 1.1em;
 }
 
+.vision-paragraph{
+	font-family: "Steinbeck" !important;
+	color:#FF7A00;
+	font-size: 2em;
+	text-align: center;
+}
+
+.ourstore-paragraph{
+	color: #fff !important;
+	text-align: left !important;
+}
+
+.ourstore-title{
+	font-family: "Steinbeck" !important;
+	font-size: 2em;
+}
+
+.vision-mission{
+	background: #ffff;
+	padding: 4em 3em 4em 3em;
+	text-align: center;
+}
+
 .intro-img{
 	width:60%;
 }
@@ -410,6 +433,15 @@ h2 {
 .fadeIn-bottom {
     top: 80%
 }
+
+.our-store{
+	background-color: #0EB9CB;
+}
+.contain{
+	width: 100%;
+	background-color: #0EB9CB;
+}
+
 
 
 @media screen and (max-width: 990px){

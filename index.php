@@ -1,6 +1,6 @@
 
 <?php get_header("image"); ?>
-<div class="home-container" >
+<div class="home-container">
 <div class="container introduction">
    <div class="row justify-content-center ">
       <div class="col">
@@ -43,7 +43,7 @@
    </div>
    <div class="container products" >
       <br>
-      <h2 class="product-title justify-content-center mt-4">Products</h2>
+      <h2 class="product-title justify-content-center mt-4 aos-init aos-animate"  data-aos="fade-up">Products</h2>
       <br>
       <div class="row justify-content-center ">
 
@@ -106,3 +106,4 @@
 </div>
 <?php get_template_part("carousel") ?>
 <?php get_footer(); ?>
+<?php get_template_part("social-footer") ?>

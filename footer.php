@@ -1,6 +1,6 @@
  <!-- footer -->
  <footer class="row justify-content-center">
-    <div class="container">
+    <div class="row justify-content-center container">
         <div class="row">
         <div class="col align-self-center"  style="position:absolute; z-index: 2; width:100%">
             <div class="row justify-content-center align-content-center align-self-center" >
@@ -30,6 +30,7 @@
         </div>
     </div> <!-- container -->
 
+<!-- 
     <div>
     <div class="row">
         <div class="col-sm-6 justify-content-center" style="padding-left:2em">
@@ -50,7 +51,7 @@
             </br><p><span class="btn-footer">All rights reserved.</span><br><span class="btn-footer">Foresta Monteverde &copy 2021.</span></p>
         </div>
     </div>
-    </div>
+    </div>-->
 
 </footer>
 </body>
