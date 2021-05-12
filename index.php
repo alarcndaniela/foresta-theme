@@ -5,7 +5,7 @@
    <div class="row justify-content-center ">
       <div class="col">
          <div class="content mb-5">
-            <a href="about-us">
+            <a href="aboutus">
                <div class="content-overlay"></div>
                <img class="img content-image " src="<?php echo get_template_directory_uri()."/img/picture_1.jpg"; ?>" alt="product">
                <div class="content-details fadeIn-bottom">
