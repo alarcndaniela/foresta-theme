@@ -1,5 +1,5 @@
 
-<?php get_header("image"); ?>
+<?php get_header("imagen"); ?>
 <div class="home-container">
 <div class="container introduction">
    <div class="row justify-content-center ">
@@ -107,5 +107,5 @@
  
 </div>
 <?php get_template_part("carrusel") ?>
-<?php get_pie-pagina(); ?>
+<?php get_piepagina(); ?>
 <?php get_template_part("pie-pagina-social") ?>

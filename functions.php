@@ -48,7 +48,9 @@
 
     //register nav menu
     register_nav_menus( array(
-        'primary-menu' => __( 'Primary Menu', 'Menu 1'),
+        'primary-menu-english' => __( 'Primary Menu English', 'Menu 1'),
+        'primary-menu-español' => __( 'Primary Menu Español', 'Menu 2'),
+
     ) );
 
     //support featured image
