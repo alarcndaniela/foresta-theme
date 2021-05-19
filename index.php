@@ -81,7 +81,7 @@
              <div class="content mb-5">
                <a href="store/decor">
                   <div class="content-overlayproduct"></div>
-                  <img class="img square-image " src="<?php echo get_template_directory_uri()."/img/decor_category.jpg"; ?>" alt="product" alt="product">
+                  <img class="img square-image " src="<?php echo get_template_directory_uri()."/img/decor_category.jpg"; ?>" alt="product">
                   <div class="content-details fadeIn-bottom">
                      <h3 class="content-title">Decor</h3>
                      <p class="content-text">Shop decor</p>
@@ -90,8 +90,8 @@
             </div>      
          </div>
 
-         <div class="col-4 align-self-start">
-             <div class="content mb-5 pb-5">
+         <div class="col-4 align-self-start pb-5">
+             <div class="content mb-5 ">
                <a href="store/clothing">
                   <div class="content-overlayproduct"></div>
                   <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/clothing_category.jpg"; ?>" alt="product">
