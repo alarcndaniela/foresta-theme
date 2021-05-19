@@ -24,6 +24,17 @@
             </div>
         </div>
     </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R0XWL925GD"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-R0XWL925GD');
+    </script>
+    
 </footer>
 </body>
 </html>
