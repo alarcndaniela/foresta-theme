@@ -107,5 +107,5 @@
  
 </div>
 <?php get_template_part("carrusel") ?>
-<?php get_piepagina(); ?>
+<?php get_footer("es"); ?>
 <?php get_template_part("pie-pagina-social") ?>

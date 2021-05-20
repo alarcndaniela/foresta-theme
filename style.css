@@ -455,6 +455,10 @@ h2 {
 	filter: invert(16%) sepia(88%) saturate(833%) hue-rotate(172deg) brightness(94%) contrast(95%);
 }
 
+.lang-item-6{
+	padding-left: 4em;
+}
+
 
 
 @media screen and (max-width: 990px){

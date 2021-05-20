@@ -41,8 +41,6 @@
                         ?>
                         <!-- <a href="shop"><img id="shop-bag" src="<?php echo get_template_directory_uri()."/img/shop.svg" ?> " width="20px";></a> -->
 
-                        <a href="#" class="btn-language english">EN</a>
-                        <a href="#" class="btn-language spanish">ES</a>
 
                      </nav>
                      <!-- nav -->
