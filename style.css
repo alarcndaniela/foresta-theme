@@ -456,7 +456,8 @@ h2 {
 }
 
 .lang-item{
-	padding-left: 10em;
+	padding-left: 10em !important;
+	margin-left: 10em !important;
 }
 
 
