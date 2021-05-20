@@ -48,7 +48,7 @@
 
     //register nav menu
     register_nav_menus( array(
-        'primary-menu' => __( 'Primary Menu', 'Menu 1'),
+        'primary-menu' => __( 'Primary Menu'),
     ) );
 
     //support featured image
