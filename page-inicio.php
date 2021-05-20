@@ -24,7 +24,7 @@
    <div class="row intro-info justify-content-center mt-5">
       <div class="col align-self-center mb-5">
          <p class="intro-paragraph">
-         Aquí se pueden encontrar desde pinturas, fotografía, joyería, bolsos de neumáticos reciclados, cosmética natural, ropa, accesorios, batiks, artesanía en madera, hasta juegos para niños y mas. Cada objeto realizado con mucha dedicación y amor por el trabajo creativo, con la intención de que este sentimiento llegue a todas las personas que lleven nuestros productos. 
+         Aquí se pueden encontrar desde pinturas, fotografía, joyería, bolsos de neumáticos reciclados, cosmética natural, ropa, accesorios, batiks, artesanía en madera, hasta juegos para niños y mÁs. Cada objeto realizado con mucha dedicación y amor por el trabajo creativo, con la intención de que este sentimiento llegue a todas las personas que adquieran nuestros productos. 
     
          </p>
       </div>
