@@ -3,7 +3,7 @@
     <div>
         <div class="row">
             <div class="col-sm-6 justify-content-center" style="padding-left:2em">
-            </br><a href="#"><img  id="logo" src="<?php echo get_template_directory_uri()."/img/logo-foresta-02.svg" ?> " width="180px";></a>
+            </br><a href="home"><img  id="logo" src="<?php echo get_template_directory_uri()."/img/logo-foresta-02.svg" ?> " width="180px";></a>
             </div>
             <div class="col-sm-6 justify-content-center" style="text-align:left;">
                 </br>

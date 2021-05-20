@@ -31,7 +31,7 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 		                    <span class="navbar-toggler-icon"></span>
 	                    </button>
-                        <a href="#"><img id="logo" src="<?php echo get_template_directory_uri()."/img/logo-foresta-02.svg" ?> " width="180px";></a>
+                        <a href="inicio"><img id="logo" src="<?php echo get_template_directory_uri()."/img/logo-foresta-02.svg" ?> " width="180px";></a>
 
                         <?php
                             wp_nav_menu( array(
