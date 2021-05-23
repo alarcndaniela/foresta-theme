@@ -310,14 +310,14 @@ h2 {
     overflow: hidden
 }
 
-.content .content-overlay {
+.content .content-overlay2 {
     background: #0EB9CB;
     position: absolute;
     height: 350px;
     width: 300px;
 	object-fit: cover;
 	align-self: center;
-    left: 0;
+    left: 1;
     top: 0;
     bottom: 0;
     right: 0;
@@ -327,7 +327,7 @@ h2 {
     transition: all 0.4s ease-in-out 0s
 }
 
-.content .content-overlay2 {
+.content .content-overlay {
     background: #FF7A00;
     position: absolute;
     height: 100%;
