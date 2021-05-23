@@ -313,10 +313,10 @@ h2 {
 .content .content-overlay {
     background: #0EB9CB;
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 350px;
+    width: 300px;
 	object-fit: cover;
-		align-self: center;
+	align-self: center;
     left: 0;
     top: 0;
     bottom: 0;
@@ -326,6 +326,7 @@ h2 {
     -moz-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s
 }
+
 .content .content-overlay2 {
     background: #FF7A00;
     position: absolute;
@@ -386,6 +387,14 @@ h2 {
 }
 .content-image {
     width: 100%
+}
+
+.content-image2{
+	width: 300px!important;
+	height: 350px !important;
+	object-fit: cover;
+	align-self: center;
+
 }
 .square-image {
     width: 30em;
@@ -458,6 +467,16 @@ h2 {
 .lang-item-6{
 	padding-left: 10em !important;
 	margin-left: 150px !important;
+}
+
+.illustration{
+	width:100px !important;
+	position: absolute;
+	margin-left: 7rem;
+	margin-top: 5%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 100;
 }
 
 
@@ -582,6 +601,14 @@ h2 {
 		margin-left: 0px !important;
 	}
 
+	.illustration{
+		width:10% !important;
+		position: absolute;
+		background-size: contain;
+		background-repeat: no-repeat;
+		top: 2px;
+		z-index: 100;
+	}
 }
 	/*
 	.intro-info{
