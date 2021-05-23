@@ -5,11 +5,11 @@
    <div class="row justify-content-center ">
       <div class="col ">
          <div class="content mb-5">
-            <a href="acercade">
+            <a href="nosotros">
                <div class="content-overlay"></div>
                <img class="img content-image"  src="<?php echo get_template_directory_uri()."/img/picture_1.jpg"; ?>" alt="product">
                <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Acerca de</h3>
+                  <h3 class="content-title">Nosotros</h3>
                   <p class="content-text">Lee un poco más acerca de la tienda</p>
                </div>
             </a>

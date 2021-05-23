@@ -7,7 +7,7 @@
             </div>
             <div class="col-sm-6 justify-content-center" style="text-align:left;">
                 </br>
-                <a href="acercade" class="btn-footer">Sobre nosotros</a></br>
+                <a href="nosotros" class="btn-footer">Sobre nosotros</a></br>
                 <a href="#" class="btn-footer">Preguntas frecuentes</a></br>
                 <a href="contacto" class="btn-footer">Tienda y Horario</a>   
             </div>
