@@ -16,14 +16,14 @@
          </div>
       </div>
       <div class="col align-self-center">
-         <p class="intro-paragraph">
+         <p class="intro-paragraph" >
             Tienda Foresta brings together artists from Monteverde and the surrounding area. Women and men who work with their hearts and create unique, handmade products. Maintaining techniques of all times, with different materials and with nature that surrounds us as a source of inspiration. 
          </p>
       </div>
    </div>
-   <div class="row intro-info justify-content-center mt-5">
+   <div class="row intro-info justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
       <div class="col align-self-center mb-5">
-         <p class="intro-paragraph">
+         <p class="intro-paragraph" >
             Find everything from painting, photography, jewelry, bags made from recycled tires, natural cosmetics, clothing, accessories, batiks, wood crafts, to games for kids and more.
             Each object is made with great dedication and love for the creative work, with the intention that this feeling reaches all people who wear our products.        
          </p>
@@ -32,7 +32,7 @@
          <div class="content">
             <a href="tienda">
                <div class="content-overlay2"></div>
-               <img class="img content-image" src="<?php echo get_template_directory_uri()."/img/picture_2.jpg"; ?>" alt="product">
+               <img class="img content-image" data-aos="fade-up" data-aos-duration="2000" src="<?php echo get_template_directory_uri()."/img/picture_2.jpg"; ?>" alt="product">
                <div class="content-details fadeIn-bottom">
                   <h3 class="content-title">Store</h3>
                   <p class="content-text">View our local products</p>
@@ -45,16 +45,15 @@
 </div>
    <div class="products" >
       <br>
-      <h2 class="product-title justify-content-center mt-4 aos-init aos-animate" data-aos="fade-up">Products</h2>
+      <h2 class="product-title justify-content-center mt-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">Products</h2>
       <br>
-      <div class="row justify-content-center ">
-
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="2000">
       
          <div class="col-4 align-self-end">
              <div class="content mb-5">
                <a href="store/accesories">
                   <div class="content-overlayproduct"></div>
-                  <img class="img square-image " src="<?php echo get_template_directory_uri()."/img/accesories_category.jpg"; ?>" alt="product">
+                  <img class="img square-image"  src="<?php echo get_template_directory_uri()."/img/accesories_category.jpg"; ?>" alt="product">
                   <div class="content-details fadeIn-bottom">
                      <h3 class="content-title">Accesories</h3>
                      <p class="content-text">Shop accesories</p>

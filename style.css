@@ -141,7 +141,8 @@ img{
 h1 {
 	width: 100%;
 	font-family: "Steinbeck";
-	font-size: 2.4em;
+	font-size: 60px;
+	font-weight: 600 !important;
 	color: #ffff;
 	text-align: center;
 	padding: 5em 0 3em 0;
@@ -183,8 +184,9 @@ h2 {
 }
 
 .ourstore-title{
-	font-family: "Steinbeck" !important;
-	font-size: 2em;
+	font-family: "Steinbeck";
+	font-size: 60px;
+	font-weight: 600 !important;
 }
 
 .vision-mission{
@@ -249,7 +251,8 @@ h2 {
 .footer-title{
 	width: 100%;
 	font-family: "Steinbeck";
-	font-size:2.5em;
+	font-size: 60px;
+	font-weight: 600 !important;
 	color: #ffff;
 	text-align: center;
 	line-height: 1.2em;
@@ -260,7 +263,7 @@ h2 {
 	width: 100%;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	color: #ffff;
 	text-align: center;
 	line-height: 1.2em;
@@ -605,6 +608,16 @@ h2 {
 		line-height: 1.2em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 	}
+	.footer-text{
+		width: 100%;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 300;
+		font-size: 1.5em;
+		color: #ffff;
+		text-align: center;
+		line-height: 1.2em;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
+	} 
 
 	.ourstore-paragraph{
 		margin-bottom: 15%;

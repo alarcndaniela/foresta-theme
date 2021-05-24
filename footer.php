@@ -1,9 +1,9 @@
  <!-- footer -->
- <footer class="row justify-content-center">
+ <footer class="row justify-content-center" data-aos="fade-up" data-aos-duration="2000">
     <div class="row justify-content-center container">
         <div class="row">
         <div class="col align-self-center"  style="position:absolute; z-index: 2; width:100%">
-            <div class="row justify-content-center align-content-center align-self-center" >
+            <div class="row p-3 justify-content-center align-content-center align-self-center" >
                 <h3 class="footer-title m-3 align-content-center">Visit us in Monteverde</h3>
                 <p class="footer-text m-3 align-content-center"><span class="around-title">Thank you for supporting art</span><br><span class="around-title">and buying local</span></p>
                 <button onclick="window.location.href='contact'" class="btn footer-btn rounded-0 m-3 align-content-center">Contact</button>

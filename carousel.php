@@ -1,8 +1,8 @@
 <section class="pt-5 pb-5">
   <div class="container">
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="2000">
       <p class="product-title justify-content-center">Brands</p>
-      <div class="row justify-content-center mt-5">
+      <div class="row justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
         <div class="col-4 ">
             <div class="content mb-5">
                <a href="store/nomellamo">

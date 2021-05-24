@@ -1,7 +1,7 @@
 <?php get_header() ?>
    
    <div class="container vision-mission">
-      <div class="row justify-content-center"  style="padding-top:15vh">
+      <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000" style="padding-top:15vh">
          <div class="col">
             <div class="content mb-5">
                <img class="img content-image " src="<?php echo get_template_directory_uri()."/img/vision.jpg"; ?>" alt="product">
@@ -14,7 +14,7 @@
             </p>
          </div>
       </div>
-      <div class="row intro-info justify-content-center mt-5">
+      <div class="row intro-info justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
          <div class="col align-self-center mb-5">
             <h3 class="vision-paragraph">Misión</h3>
             <p class="intro-paragraph">
@@ -30,7 +30,7 @@
    </div>
 
    <section class="pt-5">
-      <div class="contain our-store" style="display:flex; justify-content:center; align-content:center">
+      <div class="contain our-store" data-aos="fade-up" data-aos-duration="2000" style="display:flex; justify-content:center; align-content:center">
          <div class="row align-items-center justify-content-center align-self-center">
 
             <div class="col-4">
