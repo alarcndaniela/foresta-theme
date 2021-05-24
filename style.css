@@ -89,12 +89,12 @@ img{
 } */
 
 
-/* #menu-menu-principal > li > a {
+/* .navbar-nav > li > a {
     color: black;
 } */
 
-#menu-menu-principal > li:hover > a, 
-#menu-menu-principal > li.current_page_item > a {
+.navbar-nav > li:hover > a, 
+.navbar-nav > li.current_page_item > a {
 	color: #0B3C5D !important;
 	border: none;
 	font-family: 'Work Sans', sans-serif !important;
