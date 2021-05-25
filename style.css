@@ -539,6 +539,10 @@ h2 {
 	background-color: #fff;
 	color: #0EB9CB;
 }
+#waze{
+	width: 100%;
+	height: 72vh;
+}
 
 .contact-title{
 	padding: 0 !important;

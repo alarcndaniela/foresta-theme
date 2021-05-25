@@ -42,26 +42,10 @@
             
          </div>
 
-         <div class="col-12 p-5 contact-info-2 justify-content-center align-self-center">
-
-            <form class="align-self-center">
-               <div class="form-group m-4">
-                  <label for="exampleInputEmail1">Full name</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-               </div>
-               <div class="form-group m-4">
-                  <label for="exampleInputPassword1">Email</label>
-                  <input type="email" class="form-control" id="exampleInputPassword1">
-               </div>
-               <div class="form-group m-4">
-                  <label for="exampleInputPassword1">Message</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1">
-               </div>
-               <button type="submit" class="btn rounded-0 m-4 contact-btn">Send</button>
-            </form>
-            
+         <div class="col-12 contact-info-2 justify-content-center align-self-center">
+            <iframe id="waze" src="https://embed.waze.com/iframe?zoom=14&lat=10.313399&lon=-84.816460&ct=livemap&pin=1" allowfullscreen></iframe>
          </div>
+         
       </div>
    </div>
    <!-- Messenger plugin de chat Code -->
