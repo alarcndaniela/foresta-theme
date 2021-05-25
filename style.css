@@ -626,7 +626,7 @@ h2 {
 		text-align: center;
 		padding-top: 2em;
 		line-height: 1.1em;
-		letter-spacing: normal !important;
+		letter-spacing:-2px !important;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 	}
 	 .introduction{
@@ -701,6 +701,7 @@ h2 {
 		font-size:2em;
 		color: #ffff;
 		text-align: center;
+		letter-spacing: -2px;
 		line-height: 1.2em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 	}
