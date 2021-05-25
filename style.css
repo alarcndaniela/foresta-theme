@@ -72,6 +72,7 @@ img{
 }
 
 .nav-top ul li {
+	width: max-content;
 	display: inline;
 	font-size: 1em;
 	padding-right: 1em;
@@ -581,7 +582,10 @@ h2 {
 	.nav-top {
 		display: flex !important;
 		flex-direction: row-reverse;
-		padding: 1.5em 4em 1.5em 4em;
+		padding: 1.5em 3em 1.5em 3em;
+	}
+	.nav-top ul li {
+		padding-right: 0px;
 	}
 
 	.navbar-light .navbar-toggler {
@@ -729,7 +733,7 @@ h2 {
 	}
 
 	
-	.lang-item-6{
+	.lang-item, .menu-item{
 		padding-right: 1em;
 		padding-left: 1em;
 	}
