@@ -1,9 +1,9 @@
 
 <?php get_header("imagen"); ?>
 <div class="home-container">
-<div class="container introduction">
+<div class="container introduction"  data-aos="fade-right" data-aos-duration="2000">
    <div class="row justify-content-center ">
-      <div class="col ">
+      <div class="col">
          <div class="content mb-5">
             <a href="nosotros">
                <div class="content-overlay" ></div>

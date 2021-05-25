@@ -2,7 +2,7 @@
 <?php get_header("image"); ?>
 <div class="home-container">
 <div class="container introduction">
-   <div class="row justify-content-center ">
+   <div class="row justify-content-center"  data-aos="fade-right" data-aos-duration="2000">
       <div class="col">
          <div class="content mb-5">
             <a href="aboutus">

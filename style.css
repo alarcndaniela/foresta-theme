@@ -1,3 +1,17 @@
+/*
+Theme Name: Foresta Theme
+Theme URI: url donde se puede encontrar más detalles del tema
+Author: Daniela Alarcón y Kevin Castro
+Author URI: http://danielaalarcon.design/
+Description: Tema creado para la tienda Foresta Monteverde
+Tags: foresta, artesanias, crafts, costarica, monteverde
+Version: 1.0
+Requires at least: 5.0 - versión de WP
+Tested up to: 5.7.2 - versión de WP
+Requires PHP: 7.3.27
+Text Domain: foresta-theme
+*/
+
 /* Box sizing rules */
 *,
 *::before,
@@ -45,7 +59,7 @@ img{
 
 .nav-top {
 	width: 100%;
-	padding: 1.5em 2em 1.5em 2em;
+	padding: 1.5em 8em 1.5em 8em;
 	background-color: white;
 	-webkit-box-shadow: 0px -3px 25px 0px rgba(158,158,158,0.2);
 	-moz-box-shadow: 0px -3px 25px 0px rgba(158,158,158,0.2);
@@ -489,6 +503,15 @@ h2 {
 	filter: invert(16%) sepia(88%) saturate(833%) hue-rotate(172deg) brightness(94%) contrast(95%);
 }
 
+#facebook2, #instagram2{
+	filter: invert(100%) sepia(0%) saturate(7477%) hue-rotate(34deg) brightness(111%) contrast(97%);
+}
+
+#phone, #email, #location, #clock{
+	color: #f9f9f9;
+}
+
+
 .lang-item-6{
 	padding-left: 10em !important;
 	margin-left: 150px !important;
@@ -504,12 +527,67 @@ h2 {
 	z-index: 100;
 }
 
+.contact-info-1{
+	width: 50%;
+	background-color: #0EB9CB;
+	color: #fff;
+	text-align:left;
+}
+
+.contact-info-2{
+	width: 50%;
+	background-color: #fff;
+	color: #0EB9CB;
+}
+
+.contact-title{
+	padding: 0 !important;
+	text-align: left;
+	font-family: "Steinbeck";
+	font-size: 2em;
+	text-shadow: none;
+}
+
+.contact-text{
+	display: inline;
+	text-align: left;
+	font-family: 'Work Sans', sans-serif !important;
+	font-weight: 300;
+	font-size: 1.1em;
+}
+.contact-btn {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	border-width: 2px;
+	width: max-content;
+	border-color: #0B3C5D;
+	color: #0B3C5D;
+  }
+  
+.contact-btn:hover {
+	background-color: #0B3C5D;
+	color: #fff;
+  }
+
+  form{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	border-width: 2px;
+	border-color: #0B3C5D;
+	color: #0B3C5D;
+  }
 
 @media screen and (max-width: 990px){
 	.nav-top {
 		display: flex !important;
+		flex-direction: row-reverse;
+		padding: 1.5em 4em 1.5em 4em;
 	}
 
+	.navbar-light .navbar-toggler {
+		filter: invert(15%) sepia(16%) saturate(5920%) hue-rotate(178deg) brightness(102%) contrast(92%);
+		border:none;
+	}
 
 	.btn-language{
 		text-decoration: none !important;
@@ -530,7 +608,7 @@ h2 {
 	}
 
 	#logo{
-		width: 100px;
+		width: 120px;
 	}
 	.product-title{
 		width: 100%;
@@ -539,6 +617,11 @@ h2 {
 		color: #0B3C5D;
 		text-align: center;	
 	}
+	.contact-title{
+		font-size: 1.8em !important ;
+	}
+
+
 	h1 {
 		width: 100%;
 		font-family: "Steinbeck" !important;
@@ -566,9 +649,23 @@ h2 {
 	}
 	
 	.intro-info{
-		flex-flow: wrap-reverse !important;
+		flex-flow: wrap !important;
 
 	}
+
+	.contact{
+		height: 40vh !important;
+	}
+
+	.contact-info-1, .contact-info-2{
+		width: 100%;
+		padding:2em !important;
+	}
+
+	.info{
+		padding: 2em !important;
+	}
+	
 	.intro-paragraph{
 		font-family: 'Work Sans', sans-serif !important;
 		font-weight: 300;
@@ -589,6 +686,7 @@ h2 {
 		margin: 0 !important;
 		padding-left: 0 !important;
 	}
+	
 	.btn-footer{
 		text-align: center !important;
 		margin: 0 !important;
@@ -632,8 +730,8 @@ h2 {
 
 	
 	.lang-item-6{
-		padding-left: 0em !important;
-		margin-left: 0px !important;
+		padding-right: 1em;
+		padding-left: 1em;
 	}
 
 
