@@ -45,8 +45,6 @@
 
         <!-- header -->
         <header class="row justify-content-start">
-
-            <div class="col-10">
                 <div class="row">
                      <!-- nav -->
                      <nav class="fixed-top nav-top navbar navbar-expand-md navbar-light" role="navigation">
@@ -73,9 +71,6 @@
 
                      </nav>
                      <!-- nav -->
-
-                </div>
-
             </div>
 
         </header>

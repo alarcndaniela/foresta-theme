@@ -2,12 +2,11 @@
    
    <div class="row contact justify-content-start" 
    style="background:url(<?php echo get_template_directory_uri()."/img/contact-header.png" ?>);
-   height: 60vh; 
-   margin-top:80px;
+   height: 60vh;
    background-size:cover; 
    background-position:right" >
       <div class="row justify-content-center align-content-center align-self-center">
-         <h1 class="p-2"><span class="around-title">Let's start a conversation</span></h1>
+         <h1><span class="around-title">Let's start a conversation</span></h1>
       </div>    
    </div>
 

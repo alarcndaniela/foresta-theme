@@ -1,4 +1,3 @@
-
 <?php get_header("image"); ?>
 <div class="home-container">
 <div class="container introduction">

@@ -159,7 +159,7 @@ h1 {
 	font-weight: 600 !important;
 	color: #ffff;
 	text-align: center;
-	padding: 0;
+	padding-top: 2em;
 	line-height: 1.2em;
 	text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 }
@@ -587,9 +587,7 @@ h2 {
 		flex-direction: row-reverse;
 		padding: 1.5em 3em 1.5em 3em;
 	}
-	.nav-top ul li {
-		padding-right: 0px;
-	}
+
 
 	.navbar-light .navbar-toggler {
 		filter: invert(15%) sepia(16%) saturate(5920%) hue-rotate(178deg) brightness(102%) contrast(92%);
@@ -604,7 +602,7 @@ h2 {
 		font-weight: 300;
 	}
 	.hero{
-		height: 50vh !important;
+		height: 60vh !important;
 		justify-content: center;
 	}
 	h1{
@@ -635,7 +633,7 @@ h2 {
 		font-size: 1.4em;
 		color: #ffff;
 		text-align: center;
-		padding: 0;
+		padding-top: 2em;
 		line-height: 1.2em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 	}
@@ -654,14 +652,15 @@ h2 {
 		object-fit: cover;
 		align-self: center;
 	}
-	
+
+
 	.intro-info{
-		flex-flow: wrap !important;
+		flex-flow: wrap-reverse !important;
 
 	}
 
 	.contact{
-		height: 40vh !important;
+		height: 50vh !important;
 	}
 
 	.contact-info-1, .contact-info-2{

@@ -27,7 +27,6 @@
         background-size:cover; 
         object-fit:contain" >
 
-            <div class="col-10">
                 <div class="row">
                      <!-- nav -->
                      <nav class="fixed-top nav-top navbar navbar-expand-md navbar-light" role="navigation">
@@ -54,10 +53,8 @@
                      </nav>
                      <!-- nav -->
 
-                </div>
-
             </div>
-            <div class="row px-5">
+            <div class="row">
 
              <h1><span class="around-title">Artesanías desde nuestras manos</span><br><span class="around-title">hasta las tuyas</span></h1>
             </div>
