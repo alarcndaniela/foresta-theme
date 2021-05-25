@@ -1,12 +1,13 @@
 <?php get_header() ?>
    
-   <div class="row contact justify-content-start mt-5"
+   <div class="row contact justify-content-start"
    style="background:url(<?php echo get_template_directory_uri()."/img/contact-header.png" ?>);
-   height: 60vh; 
+   height: 60vh;
+   margin-top:80px; 
    background-size:cover; 
    background-position:right" >
       <div class="row justify-content-center align-content-center align-self-center">
-         <h1 class="p-2"><span class="around-title">Empecemos una conversación!</span></h1>
+         <h1 class="p-2"><span class="around-title">¿¡Empecemos una conversación!</span></h1>
       </div>    
    </div>
 
@@ -63,3 +64,29 @@
          </div>
       </div>
    </div>
+   <!-- Messenger plugin de chat Code -->
+   <div id="fb-root"></div>
+
+<!-- Your plugin de chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "706523216045638");
+  chatbox.setAttribute("attribution", "biz_inbox");
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v10.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>

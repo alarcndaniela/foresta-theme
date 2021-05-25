@@ -38,8 +38,7 @@ body {
 }
 
 .container-fluid {
-	margin-top: -32px;
-	padding: 0
+	padding: 0;
 }
 
 .row {
@@ -160,7 +159,7 @@ h1 {
 	font-weight: 600 !important;
 	color: #ffff;
 	text-align: center;
-	padding: 5em 0 3em 0;
+	padding: 0;
 	line-height: 1.2em;
 	text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 }
@@ -632,7 +631,7 @@ h2 {
 		font-size: 1.4em;
 		color: #ffff;
 		text-align: center;
-		padding: 5em 0 3em 0;
+		padding: 0;
 		line-height: 1.2em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 	}
