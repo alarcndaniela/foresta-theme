@@ -599,9 +599,6 @@ h2 {
 		height: 60vh !important;
 		justify-content: center;
 	}
-	h1{
-		font-size: 2em !important;
-	}
 	p{
 		margin-top: 5%;
 	}
@@ -618,17 +615,18 @@ h2 {
 	}
 	.contact-title{
 		font-size: 1.8em !important ;
+		letter-spacing: normal;
 	}
-
 
 	h1 {
 		width: 100%;
 		font-family: "Steinbeck" !important;
-		font-size: 1.4em;
+		font-size: 36px !important;
 		color: #ffff;
 		text-align: center;
 		padding-top: 2em;
-		line-height: 1.2em;
+		line-height: 1.1em;
+		letter-spacing: normal !important;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
 	}
 	 .introduction{
@@ -693,7 +691,7 @@ h2 {
 		padding-left: 0 !important;
 	}
 	.footer{
-		height: 40vh !important;
+		height: 50vh !important;
 		align-content: center;
 		justify-content: center;
 	}
