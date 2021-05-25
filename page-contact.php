@@ -1,17 +1,17 @@
 <?php get_header() ?>
    
-   <div class="row contact justify-content-start mt-5"
+   <div class="row contact justify-content-start mt-5" 
    style="background:url(<?php echo get_template_directory_uri()."/img/contact-header.png" ?>);
    height: 60vh; 
    background-size:cover; 
-   background-position:right">
+   background-position:right" >
       <div class="row justify-content-center align-content-center align-self-center">
          <h1 class="p-2"><span class="around-title">Let's start a conversation</span></h1>
       </div>    
    </div>
 
    <div>
-      <div class="row contact-info justify-content-center ">
+      <div class="row contact-info justify-content-center " data-aos="fade-right" data-aos-duration="2000">
          <div class="col-12 p-5 contact-info-1">
             <div class="info p-5">
             <h1 class="contact-title"><span>For us it will be a pleasure to help you, tell us how we can do it</span></h1>
