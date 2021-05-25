@@ -7,7 +7,7 @@
    background-size:cover; 
    background-position:right" >
       <div class="row justify-content-center align-content-center align-self-center">
-         <h1 class="p-2"><span class="around-title">¿¡Empecemos una conversación!</span></h1>
+         <h1 class="p-2"><span class="around-title">¡Empecemos una conversación!</span></h1>
       </div>    
    </div>
 
@@ -66,6 +66,13 @@
    </div>
    <!-- Messenger plugin de chat Code -->
    <div id="fb-root"></div>
+
+<!-- Your plugin de chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<!-- Messenger plugin de chat Code -->
+<div id="fb-root"></div>
 
 <!-- Your plugin de chat code -->
 <div id="fb-customer-chat" class="fb-customerchat">
