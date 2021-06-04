@@ -205,7 +205,7 @@ h2 {
 
 .vision-mission{
 	background: #ffff;
-	padding: 4em 3em 4em 3em;
+	padding: 4em 3em 4em 3em !important;
 	text-align: center;
 }
 
