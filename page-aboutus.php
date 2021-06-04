@@ -1,6 +1,6 @@
 <?php get_header() ?>
    
-   <div class="container vision-mission">
+   < class="container vision-mission">
 
          <?php
             //get aboutUs
@@ -50,7 +50,6 @@
             </div>
          </div>
       </div> -->
-   </div>
    <!-- aboutUs -->
 
    <section class="pt-5">
