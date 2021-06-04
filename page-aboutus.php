@@ -1,10 +1,5 @@
 <?php get_header() ?>
-   
-   <div class="container vision-mission">
-
-      <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000"  style="padding-top:15vh"> 
-      
-      <?php
+         <?php
             //get aboutUs
             $args = array(
                'post_type' => 'page',
@@ -20,11 +15,16 @@
                   
             while( $the_query-> have_posts() ) : $the_query->the_post();
       ?>
+   <div class="container vision-mission">
+
+      <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000"  style="padding-top:15vh"> 
+      
+
          
          <div class="col-6">
             <div class="content mb-5">
                <img class="img content-image " 
-               src="<?php the_field('about_us_intro_image'); ?>" alt="product">
+               src="<?php echo get_template_directory_uri()."/img/vision.jpg"; ?>" alt="product">
             </div>
          </div>
          <div class="col-6 align-self-center">
