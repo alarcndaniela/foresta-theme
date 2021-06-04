@@ -181,8 +181,8 @@ h2 {
 
 .intro-paragraph{
 	font-family: 'Work Sans', sans-serif !important;
-	font-weight: 300;
-	font-size: 1.1em;
+	font-weight: 300 !important;
+	font-size: 1.1em !important;
 }
 
 .vision-paragraph{
@@ -425,7 +425,10 @@ h2 {
 	opacity: 0.5;
 }
 .content-image {
-    width: 100%
+	width: 300px!important;
+	height: 350px !important;
+	object-fit: cover;
+	align-self: center;
 }
 
 .content-image2{
