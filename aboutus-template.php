@@ -6,12 +6,12 @@ get_header() ?>
       <?php while ( have_posts() ) : the_post();  ?>
 
       <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000"  style="padding-top:15vh">
-         <div class="col-6">
+         <div class="col">
             <div class="content mb-5">
                <img class="img content-image " src="<?php echo get_template_directory_uri()."/img/vision.jpg"; ?>" alt="product">
             </div>
          </div>
-         <div class="col-6 align-self-center">
+         <div class="col align-self-center">
             <h3 class="vision-paragraph"><?php the_title();?></h3>
             <p class="intro-paragraph">
                <?php the_content();?>            

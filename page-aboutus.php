@@ -1,8 +1,6 @@
 <?php get_header() ?>
 
    <div class="container vision-mission">
-
-      <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000"  style="padding-top:15vh"> 
       <?php
             //get aboutUs
             $args = array(
@@ -19,23 +17,25 @@
                   
             while( $the_query-> have_posts() ) : $the_query->the_post();
       ?>
-         <div class="col-6">
+      <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000"  style="padding-top:15vh"> 
+         <div class="col">
             <div class="content mb-5">
                <img class="img content-image " 
                src="<?php the_field('about_us_intro_image'); ?>" alt="product">
             </div>
          </div>
-         <div class="col-6 align-self-center">
+         <div class="col align-self-center">
             <h3 class="vision-paragraph"><?php the_title(); ?></h3>
             <p class="intro-paragraph">
                <?php the_content();?>            
             </p>
          </div>
-            <?php endwhile;
-            else : 
-               echo "<p>There'is no content for the moment</p>";
-            endif; ?>
-      </div>
+
+      </div>            
+      <?php endwhile;
+         else : 
+            echo "<p>There'is no content for the moment</p>";
+         endif; ?>
    </div>
       <!-- <div class="row intro-info justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
          <div class="col align-self-center mb-5">
