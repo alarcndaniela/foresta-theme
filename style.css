@@ -671,6 +671,8 @@ h2 {
 		font-family: 'Work Sans', sans-serif !important;
 		font-weight: 300;
 		font-size: 1em;
+		width: 50% !important;
+		color: #0B3C5D;
 	}
 	.square-img{
 		width: 300px !important;
