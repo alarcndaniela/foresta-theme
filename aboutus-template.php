@@ -3,9 +3,7 @@
 get_header() ?>
    
    <div class="container vision-mission">
-      <?php
-      //loop
-      while ( have_posts() ) : the_post();  ?>
+      <?php while ( have_posts() ) : the_post();  ?>
 
       <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000"  style="padding-top:15vh">
          <div class="col">
