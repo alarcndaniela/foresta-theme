@@ -1,33 +1,35 @@
 <?php get_header() ?>
    
    <div class="container vision-mission">
-      <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000" style="padding-top:15vh">
+      <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000"  style="padding-top:15vh">
          <div class="col">
             <div class="content mb-5">
-               <img class="img content-image " src="<?php echo get_template_directory_uri()."/img/vision.jpg"; ?>" alt="product">
+               <img class="img content-image " src="<?php the_field('imagen_vision');?>" alt="visión">
             </div>
          </div>
          <div class="col align-self-center">
             <h3 class="vision-paragraph">Visión</h3>
             <p class="intro-paragraph">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus mi. Duis porttitor fringilla nisi quis faucibus. Pellentesque sit amet augue sed mi euismod tincidunt non non massa.
+               <?php the_field('texto_vision');?>
             </p>
          </div>
       </div>
+      
       <div class="row intro-info justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
          <div class="col align-self-center mb-5">
-            <h3 class="vision-paragraph">Misión</h3>
+            <h3 class="mision-paragraph">Misión</h3>
             <p class="intro-paragraph">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus mi. Duis porttitor fringilla nisi quis faucibus. Pellentesque sit amet augue sed mi euismod tincidunt non non massa.       
+               <?php the_field('texto_mision');?>
             </p>
          </div>
          <div class="col mb-5" >
             <div class="content">
-                  <img class="img content-image" src="<?php echo get_template_directory_uri()."/img/mission.jpg"; ?>" alt="product">
+                  <img class="img content-image" src="<?php the_field('imagen_mision');?>"" alt="misión">
             </div>
          </div>
       </div>
    </div>
+
 
    <section class="pt-5">
       <div class="contain our-store" data-aos="fade-up" data-aos-duration="2000" style="display:flex; justify-content:center; align-content:center">

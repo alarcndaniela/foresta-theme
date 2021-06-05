@@ -7,7 +7,7 @@
       <div class="row justify-content-center" data-aos="fade-right" data-aos-duration="2000"  style="padding-top:15vh">
          <div class="col">
             <div class="content mb-5">
-               <img class="img content-image " src="<?php the_field('imagen_vision');?>" alt="mision">
+               <img class="img content-image " src="<?php the_field('imagen_vision');?>" alt="vision">
             </div>
          </div>
          <div class="col align-self-center">
@@ -17,16 +17,17 @@
             </p>
          </div>
       </div>
+
       <div class="row intro-info justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
          <div class="col align-self-center mb-5">
-            <h3 class="vision-paragraph">Mission</h3>
+            <h3 class="mision-paragraph">Mission</h3>
             <p class="intro-paragraph">
                <?php the_field('texto_mision');?>
             </p>
          </div>
          <div class="col mb-5" >
             <div class="content">
-                  <img class="img content-image" src="<?php the_field('imagen_mision');?>"" alt="vision">
+                  <img class="img content-image" src="<?php the_field('imagen_mision');?>"" alt="mission">
             </div>
          </div>
       </div>
