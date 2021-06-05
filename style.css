@@ -185,7 +185,7 @@ h2 {
 	font-size: 1.1em;
 }
 
-.vision-paragraph, mission-paragraph{
+.vision-paragraph, .mission-paragraph{
 	font-family: "Steinbeck" !important;
 	color:#FF7A00;
 	font-size: 2em;
