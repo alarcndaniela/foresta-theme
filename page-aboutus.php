@@ -20,14 +20,14 @@
 
       <div class="row intro-info justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
          <div class="col align-self-center mb-5">
-            <h3 class="mision-paragraph">Mission</h3>
+            <h3 class="mission-paragraph">Mission</h3>
             <p class="intro-paragraph">
                <?php the_field('texto_mision');?>
             </p>
          </div>
          <div class="col mb-5" >
             <div class="content">
-                  <img class="img content-image" src="<?php the_field('imagen_mision');?>"" alt="mission">
+                  <img class="img content-image" src="<?php the_field('imagen_mision');?>" alt="mission">
             </div>
          </div>
       </div>
