@@ -34,15 +34,19 @@
                
                <div class="col my-4">
                   <p class="contact-text"><span>Síguenos</span></p>
-                  <img class="m-1" id="facebook2" src="<?php the_field('link_facebook');?> " width="20px";>
-                  <img class="m-1" id="instagram2" src="<?php the_field('link_instagram');?> " width="20px";>
+                  <a href="<?php the_field('link_facebook');?>" target="_blank">
+                     <img class="m-1" id="facebook2" src="<?php echo get_template_directory_uri()."/img/facebook.svg" ?> " width="20px";>
+                  </a>
+                  <a href="<?php the_field('link_instagram');?>" target="_blank">
+                     <img class="m-1" id="instagram2" src="<?php echo get_template_directory_uri()."/img/instagram.svg" ?> " width="20px";>
+                  </a>
                </div>
             </div>
             
          </div>
 
          <div class="col-12 contact-info-2 justify-content-center align-self-center">
-            <iframe id="waze" src="<?php the_field('link_waze');?> " allowfullscreen></iframe>
+            <iframe id="waze" src="<?php the_field('link_waze');?>" allowfullscreen></iframe>
          </div>
          
       </div>
