@@ -34,8 +34,8 @@
                
                <div class="col my-4">
                   <p class="contact-text"><span>Follow us</span></p>
-                  <img class="m-1" id="facebook2" src="<?php the_field('link_facebook');?> " width="20px";>
-                  <img class="m-1" id="instagram2" src="<?php the_field('link_instagram');?> " width="20px";>
+                  <img class="m-1" id="facebook2" src=<?php the_field('link_facebook');?> width="20px";>
+                  <img class="m-1" id="instagram2" src=<?php the_field('link_instagram');?> width="20px";>
                </div>
             </div>
             
