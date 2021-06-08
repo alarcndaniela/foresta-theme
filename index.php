@@ -6,7 +6,7 @@
          <div class="content mb-5">
             <a href="aboutus">
                <div class="content-overlay"></div>
-               <img class="img content-image " src="<?php echo get_template_directory_uri()."/img/picture_1.jpg"; ?>" alt="product">
+               <img class="img content-image" src="<?php the_field('intro_foto_1');?>" alt="product">
                <div class="content-details fadeIn-bottom">
                   <h3 class="content-title">About us</h3>
                   <p class="content-text">View a little bit more about us</p>
@@ -16,22 +16,21 @@
       </div>
       <div class="col align-self-center">
          <p class="intro-paragraph" >
-            Tienda Foresta brings together artists from Monteverde and the surrounding area. Women and men who work with their hearts and create unique, handmade products. Maintaining techniques of all times, with different materials and with nature that surrounds us as a source of inspiration. 
+            <?php the_field('intro_texto_1');?>         
          </p>
       </div>
    </div>
    <div class="row intro-info justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
       <div class="col align-self-center mb-5">
          <p class="intro-paragraph" >
-            Find everything from painting, photography, jewelry, bags made from recycled tires, natural cosmetics, clothing, accessories, batiks, wood crafts, to games for kids and more.
-            Each object is made with great dedication and love for the creative work, with the intention that this feeling reaches all people who wear our products.        
+            <?php the_field('intro_texto_2');?> 
          </p>
       </div>
       <div class="col mb-5" >
          <div class="content">
             <a href="tienda">
                <div class="content-overlay2"></div>
-               <img class="img content-image" data-aos="fade-up" data-aos-duration="2000" src="<?php echo get_template_directory_uri()."/img/picture_2.jpg"; ?>" alt="product">
+               <img class="img content-image" data-aos="fade-up" data-aos-duration="2000" src="<?php the_field('intro_foto_2');?>" alt="product">
                <div class="content-details fadeIn-bottom">
                   <h3 class="content-title">Store</h3>
                   <p class="content-text">View our local products</p>

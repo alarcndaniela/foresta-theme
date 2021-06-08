@@ -7,7 +7,7 @@
          <div class="content mb-5">
             <a href="nosotros">
                <div class="content-overlay" ></div>
-                  <img class="img content-image"  src="<?php echo get_template_directory_uri()."/img/picture_1.jpg"; ?>" alt="product">
+                  <img class="img content-image"  src="<?php the_field('intro_foto_1');?>" alt="product">
                   <div class="content-details fadeIn-bottom">
                      <h3 class="content-title">Nosotros</h3>
                      <p class="content-text">Lee un poco más acerca de la tienda</p>
@@ -17,22 +17,21 @@
       </div>
       <div class="col align-self-center">
          <p class="intro-paragraph">
-         Tienda Foresta agrupa artistas de la zona de Monteverde y alrededores. Mujeres y hombres que trabajan desde el corazón, creando productos únicos, hechos a mano.  Manteniendo técnicas de todos los tiempos, con materiales diversos y con la naturaleza que nos rodea como fuente de inspiración. 
+            <?php the_field('intro_texto_1');?>         
          </p>
       </div>
    </div>
    <div class="row intro-info justify-content-center mt-5"  data-aos="fade-up" data-aos-duration="2000">
       <div class="col align-self-center mb-5">
          <p class="intro-paragraph">
-         Aquí se pueden encontrar desde pinturas, fotografía, joyería, bolsos de neumáticos reciclados, cosmética natural, ropa, accesorios, batiks, artesanía en madera, hasta juegos para niños y mÁs. Cada objeto realizado con mucha dedicación y amor por el trabajo creativo, con la intención de que este sentimiento llegue a todas las personas que adquieran nuestros productos. 
-    
+            <?php the_field('intro_texto_2');?>      
          </p>
       </div>
       <div class="col mb-5" >
          <div class="content" >
             <a href="tienda">
                <div class="content-overlay2" ></div>
-               <img class="img content-image" data-aos="fade-up" data-aos-duration="2000" src="<?php echo get_template_directory_uri()."/img/picture_2.jpg"; ?>" alt="product">
+               <img class="img content-image" data-aos="fade-up" data-aos-duration="2000" src="<?php the_field('intro_foto_2');?>" alt="product">
                <div class="content-details fadeIn-bottom">
                   <h3 class="content-title">Tienda</h3>
                   <p class="content-text">Ver nuestros productos locales</p>

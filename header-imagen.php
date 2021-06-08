@@ -22,7 +22,7 @@
         <header 
         class="hero row justify-content-start" 
         style="
-        background:url(<?php echo get_template_directory_uri()."/img/header_img.jpg" ?>); 	
+        background:url(<?php the_field('imagen_inicio');?>); 	
         height: 80vh; 
         background-size:cover; 
         object-fit:contain" >
@@ -55,8 +55,7 @@
 
             </div>
             <div class="row">
-
-             <h1><span class="around-title">Artesanías desde nuestras manos</span><br><span class="around-title">hasta las tuyas</span></h1>
+                <h1><span class="around-title"> <?php the_field('mensaje_inicio');?> </span></h1>            
             </div>
 
         </header>
