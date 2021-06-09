@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="description" content="Shop handmade products, clothing, jewelry, paintings, natural cosmetics & utilitarian. Monteverde-based products, support local art. Shipping in Costa Rica. Fast Delivery.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title><?php bloginfo('name'); ?></title>
-    <meta name="description" content="Shop handmade products, clothing, jewelry, paintings, natural cosmetics & utilitarian. Monteverde-based products, support local art. Shipping in Costa Rica. Fast Delivery.">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> 
 
