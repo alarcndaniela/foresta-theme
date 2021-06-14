@@ -40,10 +40,7 @@
       
         //wp_enqueue_style('bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css');
 
-    }   
-
-    add_action('wp_enqueue_scripts', 'load_assets');
-         
+    }    
 
     //register nav menu
     register_nav_menus( array(
@@ -52,5 +49,16 @@
 
     //support featured image
     add_theme_support('post-thumbnails'); 
+
+    function agregar_cabeceras_seguridad() {
+        header( 'Strict-Transport-Security: "max-age=31536000" env=HTTPS' );
+        header( 'X-XSS-Protection: 1;mode=block' );
+        header( 'X-Content-Type-Options: nosniff' );
+        header( 'X-Frame-Options: SAMEORIGIN' );
+        header( 'Referrer-Policy: no-referrer-when-downgrade' );
+        header( "Content-Security-Policy default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';" ); 
+    }
+
+    add_action('wp_enqueue_scripts', 'load_assets', 'agregar_cabeceras_seguridad');
 
 ?>
