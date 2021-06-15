@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="description" content="Compra productos hechos a mano, ropa, joyería, pinturas, cosméticos y utilitarios. Apoya el arte local. Envíos en Costa Rica. Entrega rápida.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title><?php bloginfo('name'); ?></title>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">

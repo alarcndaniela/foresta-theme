@@ -52,10 +52,10 @@
     //support featured image
     add_theme_support('post-thumbnails'); 
 
-    function add_header_seguridad() {
-        header( 'X-Content-Type-Options: nosniff' );
-        header( 'X-Frame-Options: SAMEORIGIN' );
-        header( 'X-XSS-Protection: 1;mode=block' );
+        function add_header_seguridad() {
+            header( 'X-Content-Type-Options: nosniff' );
+            header( 'X-Frame-Options: SAMEORIGIN' );
+            header( 'X-XSS-Protection: 1;mode=block' );
         }
 
 ?>
