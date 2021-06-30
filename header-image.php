@@ -55,9 +55,8 @@
                      <!-- nav -->
 
             </div>
-            <div class="row">
-
-             <h1><span class="around-title"> <?php the_field('mensaje_inicio');?> </span></h1>
+            <div class="row justify-content-center">
+                <h1 class="around-title w-75"> <?php the_field('mensaje_inicio');?> </h1>
             </div>
 
         </header>
