@@ -56,7 +56,7 @@
 
             </div>
             <div class="row justify-content-center">
-                <h1 class="around-title w-75"> <?php the_field('mensaje_inicio');?> </h1>
+                <h1 class="around-title w-75"><?php the_field('mensaje_inicio');?></h1>
             </div>
 
         </header>
