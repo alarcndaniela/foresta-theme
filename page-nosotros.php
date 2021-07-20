@@ -53,8 +53,8 @@
                </div>
             </div>
             
-            <div class="col-4  ">
-               <div class="content">
+            <div class="col-8">
+               <div class="content-ourstore">
                   <div class="ourstore-paragraph">
                      <h3 class="ourstore-title">Nuestra tienda</h3>
                      <p class="intro-paragraph">
