@@ -36,7 +36,7 @@
          <div class="row align-items-center justify-content-center align-self-center">
 
             <div class="col-4">
-               <div class="content ">
+               <div class="content-ourstore">
                   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                      <div class="carousel-inner mb-5 mt-5" >
                         <div class="carousel-item active">
@@ -54,7 +54,7 @@
             </div>
             
             <div class="col-8">
-               <div class="content-ourstore">
+               <div class="content-ourstore p-5">
                   <div class="ourstore-paragraph">
                      <h3 class="ourstore-title">Nuestra tienda</h3>
                      <p class="intro-paragraph">
