@@ -58,7 +58,7 @@
                   <div class="ourstore-paragraph">
                      <h3 class="ourstore-title">Nuestra tienda</h3>
                      <p class="intro-paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus mi. Duis porttitor fringilla nisi quis faucibus. Pellentesque sit amet augue sed mi euismod tincidunt non non massa.
+                        <?php the_field('texto_tienda');?>
                      </p>
                   </div>
                </div>
