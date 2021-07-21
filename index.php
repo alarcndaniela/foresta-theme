@@ -7,7 +7,7 @@
             <a href="aboutus">
                <div class="content-overlay"></div>
                <img class="img content-image" src="<?php the_field('intro_foto_1');?>" alt="product">
-               <div class="content-details fadeIn-bottom">
+               <div class="content-details-nosotros fadeIn-bottom">
                   <h3 class="content-title">About us</h3>
                   <p class="content-text">View a little bit more about us</p>
                </div>
@@ -31,7 +31,7 @@
             <a href="tienda">
                <div class="content-overlay2"></div>
                <img class="img content-image" data-aos="fade-up" data-aos-duration="2000" src="<?php the_field('intro_foto_2');?>" alt="product">
-               <div class="content-details fadeIn-bottom">
+               <div class="content-details-tienda fadeIn-bottom">
                   <h3 class="content-title">Store</h3>
                   <p class="content-text">View our local products</p>
                </div>
