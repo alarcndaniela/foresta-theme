@@ -449,7 +449,7 @@ h2 {
 }
 
 
-.content-details {
+.content-details,.content-details-tienda,.content-details-nosotros{
     position: absolute;
     text-align: center;
     padding-left: 1em;
@@ -466,20 +466,20 @@ h2 {
     transition: all 0.3s ease-in-out 0s
 }
 
-.content:hover .content-details {
+.content:hover .content-details,.content-details-tienda,.content-details-nosotros {
     top: 50%;
     left: 50%;
     opacity: 1
 }
 
-.content-details h3 {
+.content-details,.content-details-tienda,.content-details-nosotros h3 {
 	font-family: 'Steinbeck';
     color: #fff;
     font-size: 2em;
     margin-bottom: 0.5em;
 }
 
-.content-details p {
+.content-details,.content-details-tienda,.content-details-nosotros p {
 	font-family: 'Work Sans' sans-serif;
 	font-weight: 300;
     color: #fff;
@@ -755,14 +755,6 @@ h2 {
 		font-size:0.8rem;
 		text-align: center !important;
 	}
-	.content {
-		position: relative;
-		width: 200px;
-		height: 200px;
-		margin: auto;
-		overflow: hidden
-	}
-
 	.fadeIn-bottom {
 		top: 50%;
 	}
