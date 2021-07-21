@@ -1,4 +1,3 @@
-
 <?php get_header("imagen"); ?>
 <div class="home-container">
 <div class="container introduction"  data-aos="fade-right" data-aos-duration="2000">

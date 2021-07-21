@@ -454,7 +454,7 @@ h2 {
 }
 
 
-.content-details,.content-details-tienda,.content-details-nosotros{
+.content-details,.content-details-tienda,.content-details-nosotros {
     position: absolute;
     text-align: center;
     padding-left: 1em;
@@ -462,7 +462,7 @@ h2 {
     width: 100%;
     top: 50%;
     left: 50%;
-    opacity: 0;
+    opacity: 0 !important;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -474,7 +474,7 @@ h2 {
 .content:hover .content-details,.content-details-tienda,.content-details-nosotros {
     top: 50%;
     left: 50%;
-    opacity: 1
+    opacity: 1 !important;
 }
 
 .content-details,.content-details-tienda,.content-details-nosotros h3 {
@@ -489,10 +489,6 @@ h2 {
 	font-weight: 300;
     color: #fff;
     font-size: 1em
-}
-
-.fadeIn-bottom {
-    top: 80%
 }
 
 .our-store{
