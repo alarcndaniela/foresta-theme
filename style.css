@@ -51,10 +51,6 @@ img{
 	box-shadow: none !important;
 }
 
-#logo{
-	width: 120px !important;
-	padding-right: 10px;
-}
 .hero {
 	width: 100%;
 	height: 80vh !important; 
@@ -354,11 +350,11 @@ h2 {
 }
 
 .content {
-    position: relative;
-    width: 90%;
-    max-width: 400px;
-    margin: auto;
-    overflow: hidden
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	overflow: hidden
 }
 
 .content .content-overlay {
@@ -367,7 +363,6 @@ h2 {
     height: 100%;
     width: 100%;
 	object-fit: cover;
-		align-self: center;
     left: 0;
     top: 0;
     bottom: 0;
@@ -447,14 +442,30 @@ h2 {
 
 }
 .square-image {
-    width: 30em;
-	height: 20em;
+    width: 400px;
+	height: 400px;
 	object-fit: cover;
 	align-self: center;
 }
 
 
-.content-details,.content-details-tienda,.content-details-nosotros {
+.content-details  {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0 !important;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+.content-details-tienda{
     position: absolute;
     text-align: center;
     padding-left: 1em;
@@ -471,26 +482,81 @@ h2 {
     transition: all 0.3s ease-in-out 0s
 }
 
-.content:hover .content-details,.content-details-tienda,.content-details-nosotros {
+.content-details-nosotros{
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0 !important;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.content:hover .content-details-tienda {
     top: 50%;
     left: 50%;
     opacity: 1 !important;
 }
 
-.content-details,.content-details-tienda,.content-details-nosotros h3 {
+.content:hover .content-details-nosotros {
+    top: 50%;
+    left: 50%;
+    opacity: 1 !important;
+}
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1 !important;
+}
+
+.content-details h3 {
 	font-family: 'Steinbeck';
     color: #fff;
     font-size: 2em;
     margin-bottom: 0.5em;
 }
 
-.content-details,.content-details-tienda,.content-details-nosotros p {
+.content-details-tienda h3 {
+	font-family: 'Steinbeck' !important;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.content-details-nosotros h3 {
+	font-family: 'Steinbeck'!important;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.content-details p{
 	font-family: 'Work Sans' sans-serif;
 	font-weight: 300;
     color: #fff;
     font-size: 1em
 }
 
+.content-details-tienda p {
+	font-family: 'Work Sans' sans-serif !important;
+	font-weight: 300;
+    color: #fff;
+    font-size: 1em
+}
+
+.content-details-nosotros p {
+	font-family: 'Work Sans' sans-serif !important;
+	font-weight: 300;
+    color: #fff;
+    font-size: 1em
+}
 .our-store{
 	background-color: #0EB9CB;
 }
@@ -750,6 +816,14 @@ h2 {
 		top: 2px;
 		z-index: 100;
 	}
+
+	.content {
+		position: relative;
+		width: 300px;
+		height: 300px;
+		margin: auto;
+		overflow: hidden;
+	}
 	.content-ourstore{
 		padding: 0 !important;
 		width: 100% !important;
@@ -759,19 +833,20 @@ h2 {
 	.fadeIn-bottom {
 		top: 50%;
 	}
+
 	.content-details{
 		opacity: 1 !important;
 	}
 	.content-details h3 {
 		font-family: 'Steinbeck';
-		font-size: 1.2em;
+		font-size: 1.4em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important
 	}
 	.content-details p {
 		font-family: 'Work Sans' sans-serif;
 		font-weight: 300;
 		color: #fff;
-		font-size: 0.8em;
+		font-size: 1em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important;
 	}
 }

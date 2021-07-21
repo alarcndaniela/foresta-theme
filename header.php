@@ -10,11 +10,12 @@
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> 
     <?php wp_head(); ?>
 </head>
-
 <body>
-    <script>
-        AOS.init();
-    </script>
+  <script type="text/javascript" src="https://apiv2.popupsmart.com/api/Bundle/368385" async></script>
+
+  <script>
+      AOS.init();
+  </script>
 <!-- Messenger plugin de chat Code -->
 <div id="fb-root"></div>
 

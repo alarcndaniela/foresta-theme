@@ -45,9 +45,9 @@
       <br>
       <h2 class="product-title justify-content-center mt-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">Productos</h2>
       <br>
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+      <div class="row d-flex justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
 
-         <div class="col-4 align-self-end">
+         <div class="categories__col col-md-3 col-sm-12 align-self-end">
              <div class="content mb-5">
                <a href="store/accesories">
                   <div class="content-overlayproduct"></div>
@@ -60,7 +60,7 @@
             </div>      
          </div>
 
-         <div class="col-4 align-self-end">
+         <div class="categories__col col-md-3 col-sm-12 align-self-end">
              <div class="content mb-5">
                <a href="store/jewelry">
                   <div class="content-overlayproduct"></div>
@@ -73,8 +73,8 @@
             </div>      
          </div>
 
-      <div class="row justify-content-center ">
-         <div class="col-4 align-self-start">
+         <div class="row d-flex justify-content-center">
+         <div class="categories__col col-md-3 col-sm-12 align-self-end">
              <div class="content mb-5">
                <a href="store/decor">
                   <div class="content-overlayproduct"></div>
@@ -87,7 +87,7 @@
             </div>      
          </div>
 
-         <div class="col-4 align-self-start pb-5">
+         <div class="categories__col col-md-3 col-sm-12 align-self-end">
              <div class="content mb-5 ">
                <a href="store/clothing">
                   <div class="content-overlayproduct"></div>

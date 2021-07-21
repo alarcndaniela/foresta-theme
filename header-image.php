@@ -11,8 +11,9 @@
 
     <?php wp_head(); ?>
 </head>
-
 <body>
+    <script type="text/javascript" src="https://apiv2.popupsmart.com/api/Bundle/368385" async></script>
+
     <script>
         AOS.init();
     </script> 
