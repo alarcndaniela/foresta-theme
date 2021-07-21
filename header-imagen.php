@@ -35,9 +35,9 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 		                    <span class="navbar-toggler-icon"></span>
 	                    </button>
-                        <div id="logo" class="col site-header__logo d-flex justify-content-center justify-content-md-start pb-2">
-                            <?php the_custom_logo(); ?>
-                        </div>                        
+                        <a href="inicio"><img id="logo" src="<?php the_custom_logo(); ?>" width="180px";></a>
+                        
+                        
                         <?php
                             wp_nav_menu( array(
                                 'theme_location'    => 'primary',
