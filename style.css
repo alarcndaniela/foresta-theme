@@ -749,7 +749,12 @@ h2 {
 		top: 2px;
 		z-index: 100;
 	}
-	
+	.content-ourstore{
+		padding: 0 !important;
+		width: 100% !important;
+		font-size:0.8rem;
+		text-align: center !important;
+	}
 	.content {
 		position: relative;
 		width: 200px;
@@ -758,21 +763,23 @@ h2 {
 		overflow: hidden
 	}
 
+	.fadeIn-bottom {
+		top: 50%;
+	}
 	.content-details{
-		opacity: 1;
+		opacity: 1 !important;
 	}
 	.content-details h3 {
 		font-family: 'Steinbeck';
 		font-size: 1.2em;
-		margin-top: 3em;
-		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important
 	}
 	.content-details p {
 		font-family: 'Work Sans' sans-serif;
 		font-weight: 300;
 		color: #fff;
 		font-size: 0.8em;
-		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important;
 	}
 }
 	/*
