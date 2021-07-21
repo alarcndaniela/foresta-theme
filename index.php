@@ -62,7 +62,7 @@
 
          <div class="col-4 align-self-end">
              <div class="content mb-5">
-               <a href="store/jewelry">
+               <a href="shop/jewelry">
                   <div class="content-overlayproduct"></div>
                   <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/jewelry_category.jpg"; ?>" alt="product">
                   <div class="content-details fadeIn-bottom">
