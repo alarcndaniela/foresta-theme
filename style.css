@@ -749,6 +749,14 @@ h2 {
 		top: 2px;
 		z-index: 100;
 	}
+	
+	.content {
+		position: relative;
+		width: 200px;
+		height: 200px;
+		margin: auto;
+		overflow: hidden
+	}
 
 	.content-details{
 		opacity: 1;
