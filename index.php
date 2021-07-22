@@ -28,7 +28,7 @@
       </div>
       <div class="col mb-5" >
          <div class="content">
-            <a href="tienda">
+            <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/en_us/?currency=USD">
                <div class="content-overlay2"></div>
                <img class="img content-image" data-aos="fade-up" data-aos-duration="2000" src="<?php the_field('intro_foto_2');?>" alt="product">
                <div class="content-details-tienda fadeIn-bottom">
@@ -49,7 +49,7 @@
       
          <div class="categories__col col-md-3 col-sm-12 align-self-end">
              <div class="content mb-5">
-               <a href="store/accesories">
+               <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/en_us/accesorios/">
                   <div class="content-overlayproduct"></div>
                   <img class="img square-image"  src="<?php echo get_template_directory_uri()."/img/accesories_category.jpg"; ?>" alt="product">
                   <div class="content-details fadeIn-bottom">
@@ -62,7 +62,7 @@
 
          <div class="categories__col col-md-3 col-sm-12 align-self-end">
              <div class="content mb-5">
-               <a href="shop/jewelry">
+               <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/en_us/joyeria/">
                   <div class="content-overlayproduct"></div>
                   <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/jewelry_category.jpg"; ?>" alt="product">
                   <div class="content-details fadeIn-bottom">
@@ -76,7 +76,7 @@
          <div class="row d-flex justify-content-center">
          <div class="categories__col col-md-3 col-sm-12 align-self-end">
              <div class="content mb-5">
-               <a href="store/decor">
+               <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/en_us/decoracion-y-utilitarios/">
                   <div class="content-overlayproduct"></div>
                   <img class="img square-image " src="<?php echo get_template_directory_uri()."/img/decor_category.jpg"; ?>" alt="product">
                   <div class="content-details fadeIn-bottom">
@@ -89,7 +89,7 @@
 
          <div class="categories__col col-md-3 col-sm-12 align-self-end">
              <div class="content mb-5 ">
-               <a href="store/clothing">
+               <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/en_us/ropa/">
                   <div class="content-overlayproduct"></div>
                   <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/clothing_category.jpg"; ?>" alt="product">
                   <div class="content-details fadeIn-bottom">

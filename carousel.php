@@ -5,7 +5,7 @@
       <div class="row justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
         <div class="col-4 ">
             <div class="content mb-5">
-               <a href="store/nomellamo">
+               <a target="_blank" href="store/nomellamo">
                   <div class="content-overlaybrand"></div>
                   <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/brand_nome.jpg"; ?>" alt="product" alt="product">
                   <div class="content-details fadeIn-bottom">
@@ -17,7 +17,7 @@
         </div>
         <div class="col-4">
             <div class="content mb-5">
-               <a href="store/yaloco">
+               <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/en_us/marca/yaloco/">
                   <div class="content-overlaybrand"></div>
                   <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/brand_leather.jpg"; ?>" alt="product" alt="product">
                   <div class="content-details fadeIn-bottom">
@@ -29,7 +29,7 @@
         </div>
         <div class="col-4">
         <div class="content mb-5">
-               <a href="store/turin">
+               <a target="_blank" href="store/turin">
                   <div class="content-overlaybrand"></div>
                   <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/brand_coffee.jpg"; ?>" alt="product" alt="product">
                   <div class="content-details fadeIn-bottom">
