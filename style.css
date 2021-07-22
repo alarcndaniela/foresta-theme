@@ -352,6 +352,7 @@ h2 {
 .content {
 	position: relative;
 	width: 400px;
+	height: auto;
 	margin: auto;
 	overflow: hidden
 }
