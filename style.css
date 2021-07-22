@@ -869,104 +869,34 @@ h2 {
 		font-size: 1em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important;
 	}
-}
-	/*
-	.intro-info{
-		flex-flow: wrap-reverse !important;
-
+	.content-details-tienda{
+		opacity: 1 !important;
 	}
-	.intro-paragraph{
-		font-family: 'Work Sans', sans-serif !important;
-		font-weight: 300;
-		font-size: 1em;
-	}
-	.intro-img{
-		width: 300px !important;
-		height: 300px !important;
-		object-fit: cover;
-		align-self: center;
-	} */
-/* 	
-	.introduction{
-		padding: 2.2em !important;
-	}
-	.intro-info{
-		flex-flow: wrap-reverse !important;
-
-	}
-	#logo{
-		width: 100px;
-	}
-
-	.intro-paragraph{
-		font-family: 'Work Sans', sans-serif !important;
-		font-weight: 300;
-		font-size: 1em;
-	}
-	.intro-img{
-		width: 300px !important;
-		height: 300px !important;
-		object-fit: cover;
-		align-self: center;
-	} */
-	/* .col-4 {
-		flex: 0 0 auto;
-		width: auto;
-	} */
-	/* .footer{
-		height: 40vh !important;
-	}
-	.footer-title{
-		width: 100%;
-		font-family: "Steinbeck";
-		font-size:2em;
-		color: #ffff;
-		text-align: center;
-		line-height: 1.2em;
-		text-shadow: 0 0 3px #0000, 0 0 5px #363636;
-	}
-	.footer-text{
+	.content-details-tienda h3 {
+		font-family: 'Steinbeck';
 		font-size: 1.4em;
-		line-height: 20px;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important
 	}
-	.btn-footer{
-		margin-left:0 !important;
-	} */
-
-/* 
-@media (min-width: 990px){
-	.navbar-expand-md .navbar-collapse {
-		display: flex!important;
-		justify-content: flex-end;
-		flex-basis: auto;
-	}
-	.hero{
-		height: 50vh;
-	}
-	p{
-		margin-top: 5%;
-	}
-	.intro{
-		padding: 2.2em !important;
-	}
-	 .intro-info{
-		flex-flow: wrap-reverse !important;
-		padding: 1em !important;
-
-	} 
-	#logo{
-		width: 100px;
-	}
-
-	.intro-paragraph{
+	.content-details-tienda p {
+		font-family: 'Work Sans' sans-serif;
+		font-weight: 300;
+		color: #fff;
 		font-size: 1em;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important;
 	}
-	.intro-img{
-		width: 300px !important;
-		align-self: center;
+	.content-details-nosotros{
+		opacity: 1 !important;
 	}
-	.col-4 {
-		flex: 0 0 auto;
-		width: auto;
+	.content-details-nosotros h3 {
+		font-family: 'Steinbeck';
+		font-size: 1.4em;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important
 	}
-} */
+	.content-details-nosotros p {
+		font-family: 'Work Sans' sans-serif;
+		font-weight: 300;
+		color: #fff;
+		font-size: 1em;
+		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important;
+	}
+}
