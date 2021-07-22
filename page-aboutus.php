@@ -71,8 +71,8 @@
    </section>
    <section>
    <div class="row justify-content-center p-5">
-      <div class="col-6 px-5 text-center">
-      <img class="img content-image" src="<?php the_field('foto_1');?>" alt="mission">
+      <div class="col-12 px-5 text-center">
+         <img src="/img/china.jpg" class="rounded-circle img-fluid w-50" alt="...">
          <h3 class="pt-2"><?php the_field('nombre_1');?></h3>
          <p><?php the_field('bio_1');?></p>
       </div>
