@@ -19,7 +19,7 @@
             <div class="content mb-5">
                <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/en_us/marca/yaloco/">
                   <div class="content-overlaybrand"></div>
-                  <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/brand_leather.jpg"; ?>" alt="product" alt="product">
+                  <img class="img square-image" src="<?php echo get_template_directory_uri()."/img/brand-leather.jpg"; ?>" alt="product" alt="product">
                   <div class="content-details fadeIn-bottom">
                      <h3 class="content-title">Yaloco</h3>
                      <p class="content-text">Shop @yaloco products</p>
