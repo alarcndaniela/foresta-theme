@@ -70,7 +70,8 @@
       </div>
    </section>
    <section>
-   <div class="row justify-content-center p-5">
+   <div class="row founders justify-content-center p-5">
+      <h1 class="founders-title">The hands behind everything</h1>
       <div class="col-12 px-5 text-center">
          <img src="/img/china.jpg" class="rounded-circle img-fluid w-50" alt="...">
          <h3 class="pt-2"><?php the_field('nombre_1');?></h3>
