@@ -903,7 +903,12 @@ h2 {
 	.ourstore-title{
 		font-size: 30px;
 	}
-	.founders h3 h4{
+	.founders h4{
+		font-family: 'Steinbeck';
+		color: #fff;
+		font-size: 30px;
+	}
+	.founders h3{
 		font-family: 'Steinbeck';
 		color: #fff;
 		font-size: 30px;
