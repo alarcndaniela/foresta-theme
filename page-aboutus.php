@@ -77,6 +77,11 @@
          <h3 class="pt-2"><?php the_field('nombre_1');?></h3>
          <p><?php the_field('bio_1');?></p>
       </div>
+      <div class="row founders justify-content-center text-center p-1">
+      <div class="col-6 px-5 text-center">
+         <h3 class="pt-2"><?php the_field('nombre_2');?></h3>
+         <p><?php the_field('bio_2');?></p>
+      </div>
    </section>
 
    <?php get_template_part("social-footer") ?>
