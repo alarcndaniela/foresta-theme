@@ -72,13 +72,13 @@
    <section>
    <div class="row founders justify-content-center text-center p-5">
       <h4 class="founders-title">The hands behind everything</h4>
-      <div class="col-6 px-5 text-center">
+      <div class="col-lg-6 col-sm-12 px-5 text-center">
          <img src="<?php echo get_template_directory_uri()."/img/china.jpg"; ?>" class="rounded-circle img-fluid w-50" alt="...">
          <h3 class="pt-2"><?php the_field('nombre_1');?></h3>
          <p><?php the_field('bio_1');?></p>
       </div>
       <div class="row founders justify-content-center text-center p-1">
-      <div class="col-6 px-5 text-center">
+      <div class="col-lg-6 col-sm-12 px-5 text-center">
          <h3 class="pt-2"><?php the_field('nombre_2');?></h3>
          <p><?php the_field('bio_2');?></p>
       </div>

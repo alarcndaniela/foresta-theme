@@ -3,7 +3,7 @@
     <div class="row" data-aos="fade-up" data-aos-duration="2000">
       <p class="product-title justify-content-center">Marcas</p>
       <div class="row justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
-        <div class="col-4 ">
+        <div class="col-md-6 col-lg-4 col-sm-12 align-self-end">
             <div class="content mb-5">
                <a target="_blank" href="store/nomellamo">
                   <div class="content-overlaybrand"></div>
@@ -15,7 +15,7 @@
                </a>   
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-6 col-lg-4 col-sm-12 align-self-end">
             <div class="content mb-5">
                <a  target="_blank" href="https://dev-shopforesta.pantheonsite.io/marca/yaloco/">
                   <div class="content-overlaybrand"></div>
@@ -27,7 +27,7 @@
                </a>   
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-6 col-lg-4 col-sm-12 align-self-end">
         <div class="content mb-5">
                <a target="_blank" href="store/turin">
                   <div class="content-overlaybrand"></div>
