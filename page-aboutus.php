@@ -37,7 +37,7 @@
       <div class="contain our-store" data-aos="fade-up" data-aos-duration="2000" style="display:flex; justify-content:center; align-content:center">
          <div class="row align-items-center justify-content-center align-self-center">
 
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12">
                <div class="content-ourstore">
                   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                      <div class="carousel-inner mb-5 mt-5" >
@@ -55,7 +55,7 @@
                </div>
             </div>
             
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                <div class="content-ourstore p-5">
                   <div class="ourstore-paragraph">
                      <h3 class="ourstore-title">Our store</h3>
@@ -72,13 +72,13 @@
    <section>
    <div class="row founders justify-content-center text-center p-5">
       <h4 class="founders-title">The hands behind everything</h4>
-      <div class="col-lg-6 col-sm-12 px-5 text-center">
+      <div class="col-lg-6 col-sm-12 text-center">
          <img src="<?php echo get_template_directory_uri()."/img/china.jpg"; ?>" class="rounded-circle img-fluid w-50" alt="...">
          <h3 class="pt-2"><?php the_field('nombre_1');?></h3>
          <p><?php the_field('bio_1');?></p>
       </div>
       <div class="row founders justify-content-center text-center p-1">
-      <div class="col-lg-6 col-sm-12 px-5 text-center">
+      <div class="col-lg-6 col-sm-12 text-center">
          <h3 class="pt-2"><?php the_field('nombre_2');?></h3>
          <p><?php the_field('bio_2');?></p>
       </div>

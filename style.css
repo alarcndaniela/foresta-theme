@@ -899,4 +899,15 @@ h2 {
 		font-size: 1em;
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important;
 	}
+
+	.founders h3{
+		font-family: 'Steinbeck';
+		color: #fff;
+		font-size: 30px;
+	}
+	.founders p{
+	  font-family: 'Work Sans', sans-serif;
+	  color: #fff;
+	  font-size:1em
+  }
 }
