@@ -900,7 +900,10 @@ h2 {
 		text-shadow: 0 0 3px #0000, 0 0 5px #363636 !important;
 	}
 
-	.founders h3{
+	.ourstore-title{
+		font-size: 30px;
+	}
+	.founders h3 h4{
 		font-family: 'Steinbeck';
 		color: #fff;
 		font-size: 30px;
