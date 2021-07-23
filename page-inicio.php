@@ -47,7 +47,7 @@
       <br>
       <div class="row d-flex justify-content-center mt-5" data-aos="fade-up" data-aos-duration="2000">
 
-         <div class="categories__col col-md-3 col-sm-12 align-self-end">
+         <div class="categories__col col-md-4 col-sm-12 align-self-end">
              <div class="content mb-5">
                <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/accesorios/">
                   <div class="content-overlayproduct"></div>
@@ -60,7 +60,7 @@
             </div>      
          </div>
 
-         <div class="categories__col col-md-3 col-sm-12 align-self-end">
+         <div class="categories__col col-md-4 col-sm-12 align-self-end">
              <div class="content mb-5">
                <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/joyeria/">
                   <div class="content-overlayproduct"></div>
@@ -74,7 +74,7 @@
          </div>
 
          <div class="row d-flex justify-content-center">
-         <div class="categories__col col-md-3 col-sm-12 align-self-end">
+         <div class="categories__col col-md-4 col-sm-12 align-self-end">
              <div class="content mb-5">
                <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/decoracion-y-utilitarios/">
                   <div class="content-overlayproduct"></div>
@@ -87,7 +87,7 @@
             </div>      
          </div>
 
-         <div class="categories__col col-md-3 col-sm-12 align-self-end">
+         <div class="categories__col col-md-4 col-sm-12 align-self-end">
              <div class="content mb-5 ">
                <a target="_blank" href="https://dev-shopforesta.pantheonsite.io/ropa/">
                   <div class="content-overlayproduct"></div>
